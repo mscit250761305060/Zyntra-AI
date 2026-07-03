@@ -1,0 +1,210 @@
+{
+  "8d9be6c2-7cb2-46d2-bf8c-8bf2ff76e706": {
+    "user_id": "8d9be6c2-7cb2-46d2-bf8c-8bf2ff76e706",
+    "username": "test_user",
+    "email": "test@example.com",
+    "created_at": "2026-06-23T16:43:49.900105"
+  },
+  "2a5e4ab7-8709-4bff-a870-e2a64dd139ff": {
+    "user_id": "2a5e4ab7-8709-4bff-a870-e2a64dd139ff",
+    "username": "frontend_test",
+    "email": "test@frontend.com",
+    "created_at": "2026-06-23T16:49:09.093900"
+  },
+  "101": {
+    "user_id": "101",
+    "username": null,
+    "email": null,
+    "created_at": "2026-06-23T16:54:24.871590"
+  },
+  "user_1782213684854": {
+    "user_id": "user_1782213684854",
+    "username": null,
+    "email": null,
+    "created_at": "2026-06-23T16:55:06.586442"
+  },
+  "test_user_123": {
+    "user_id": "test_user_123",
+    "username": null,
+    "email": null,
+    "created_at": "2026-06-23T16:57:03.466856"
+  },
+  "user_1782306500288": {
+    "user_id": "user_1782306500288",
+    "username": null,
+    "email": null,
+    "created_at": "2026-06-24T18:39:54.545886"
+  },
+  "user_1782306705875": {
+    "user_id": "user_1782306705875",
+    "username": null,
+    "email": null,
+    "created_at": "2026-06-24T18:41:52.489667"
+  },
+  "default_user": {
+    "user_id": "default_user",
+    "username": null,
+    "email": null,
+    "created_at": "2026-06-26T17:24:43.430606"
+  },
+  "5ba17300-d4d6-4a73-872c-06d839681f94": {
+    "user_id": "5ba17300-d4d6-4a73-872c-06d839681f94",
+    "username": "test2",
+    "email": "test2@test.com",
+    "password_hash": "$2b$12$fs3QF6HnIZDLvMBVZdu2tONvkXpuGjX3.k0ybUZJ7HRVyLGYtfgu2",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-06-29T14:54:58.401381"
+  },
+  "621ed49e-74f5-47a9-aee5-4ef132310248": {
+    "user_id": "621ed49e-74f5-47a9-aee5-4ef132310248",
+    "username": "Test User",
+    "email": "test_debug@test.com",
+    "password_hash": "$2b$12$WmwRuugHjazuhbVmwWQ.KedRoqTkTpUZld98W0upmNYoN9jR2ei5m",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-06-29T15:03:08.753517",
+    "created_at": "2026-06-29T15:03:08.553475"
+  },
+  "13b53dda-e1cf-44dd-963c-b5eb1e6c43d7": {
+    "user_id": "13b53dda-e1cf-44dd-963c-b5eb1e6c43d7",
+    "username": "Test User 4",
+    "email": "test_http4@test.com",
+    "password_hash": "$2b$12$r8yTHA6OqJD.3QEmmbWlS.ijk0RoPXQ0/ZTlZ85pd5XO4856GecqG",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-06-29T15:07:13.068471",
+    "created_at": "2026-06-29T15:07:12.860990"
+  },
+  "b77ad6d3-cec7-495a-8452-3e2275c1f7df": {
+    "user_id": "b77ad6d3-cec7-495a-8452-3e2275c1f7df",
+    "username": "Test User 5",
+    "email": "test_http5@test.com",
+    "password_hash": "$2b$12$jsuKePRH4bleu6OBEprzmeXiMjgQoVqkVw9L70HIhr.Rlkjc49TcW",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-06-29T15:07:32.466311",
+    "created_at": "2026-06-29T15:07:32.245375"
+  },
+  "d8e15a56-87a0-4a34-9f62-23c3185ddaaa": {
+    "user_id": "d8e15a56-87a0-4a34-9f62-23c3185ddaaa",
+    "username": "Test User 6",
+    "email": "test_http6@test.com",
+    "password_hash": "$2b$12$LT4D7uYfOZPYKESxa/lX1OakhM5V41ZkdxUkSLpGSZ4hAxEW6mBk6",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-06-29T15:07:50.170034",
+    "created_at": "2026-06-29T15:07:49.958531"
+  },
+  "de8ff4f6-f7da-43ac-b0ea-fae8f0c67a16": {
+    "user_id": "de8ff4f6-f7da-43ac-b0ea-fae8f0c67a16",
+    "username": "Test User 7",
+    "email": "test_http7@test.com",
+    "password_hash": "$2b$12$xfExg8Dq9lfG9WnaLMrSNe9PvLsQPqS55c8.bPaleHYIVOzhILhee",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-06-29T15:07:58.610779",
+    "created_at": "2026-06-29T15:07:58.401353"
+  },
+  "dc951385-44c2-4a09-8b56-95c191c57237": {
+    "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+    "username": "jeel khokhaneshiya",
+    "email": "khokhaneshiy@gmail.com",
+    "password_hash": "$2b$12$uEyGumYXeM83G5Vlh54aNuVWCYLRUSHdgqqhaGcwnL9SJmSjqgU/S",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-07-03T14:43:24.229192",
+    "created_at": "2026-06-29T15:09:05.229637"
+  },
+  "42fbd47d-14bc-416c-8988-73f735aa1cda": {
+    "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+    "username": "Jeel",
+    "email": "jeelkhokhaneshiya@gmail.com",
+    "password_hash": "$2b$12$PPLMZnTW4NGpojgZW6A6H.JipW5bmskqSPdW6SvaxRTmdkp8Hjq52",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-07-03T15:46:36.940070",
+    "created_at": "2026-06-29T15:59:02.723669"
+  },
+  "c045e9c5-a3a7-48cb-86f0-a7d3c2c7372a": {
+    "user_id": "c045e9c5-a3a7-48cb-86f0-a7d3c2c7372a",
+    "username": "Test User",
+    "email": "testauth@example.com",
+    "password_hash": "$2b$12$TQfN31wWG705utMSQJNrUuIFKpgWBoTNZPyNvpQDCvtdhWH2Y9V3e",
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": "2026-07-01T14:58:34.824926",
+    "created_at": "2026-06-29T16:15:32.484312"
+  },
+  "37f294a0-a272-41e5-a12c-aaf786cc168d": {
+    "user_id": "37f294a0-a272-41e5-a12c-aaf786cc168d",
+    "username": "test_user",
+    "email": "test@example.com",
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-06-29T16:15:32.747136"
+  },
+  "a2e588a2-25dc-44aa-bb92-a3568310a1ad": {
+    "user_id": "a2e588a2-25dc-44aa-bb92-a3568310a1ad",
+    "username": "test_user",
+    "email": "test@example.com",
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-07-01T14:57:04.676316"
+  },
+  "2615c487-fd87-4ca2-924c-07dd694ac480": {
+    "user_id": "2615c487-fd87-4ca2-924c-07dd694ac480",
+    "username": "frontend_test",
+    "email": "test@frontend.com",
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-07-01T14:57:54.007393"
+  },
+  "fdacefd2-7f07-4693-8ebd-9690c0b5de38": {
+    "user_id": "fdacefd2-7f07-4693-8ebd-9690c0b5de38",
+    "username": "test_user",
+    "email": "test@example.com",
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-07-01T14:57:54.030295"
+  },
+  "c8f9e8f2-c15a-41a3-a08e-eb7b561ed21f": {
+    "user_id": "c8f9e8f2-c15a-41a3-a08e-eb7b561ed21f",
+    "username": "frontend_test",
+    "email": "test@frontend.com",
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-07-01T14:58:38.318064"
+  },
+  "83850575-358a-425f-9442-45bebaec4333": {
+    "user_id": "83850575-358a-425f-9442-45bebaec4333",
+    "username": "test_user",
+    "email": "test@example.com",
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-07-01T14:58:38.343266"
+  },
+  "test_user": {
+    "user_id": "test_user",
+    "username": null,
+    "email": null,
+    "password_hash": null,
+    "profile_image": null,
+    "auth_provider": "local",
+    "last_login": null,
+    "created_at": "2026-07-01T18:08:00.375141"
+  }
+}

@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyntra AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/design.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-brand" style="display: flex; align-items: center; gap: 16px;">
+                <h1>
+                    <img src="assets/logo.png" alt="Zyntra AI" class="logo" />
+                    Zyntra AI
+                </h1>
+                <p style="margin: 0; padding-left: 16px; border-left: 1px solid var(--glass-border);">Intelligence Orchestrated</p>
+            </div>
+            <button id="themeToggleBtn" class="theme-toggle-btn" title="Toggle Theme">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="sidebar-section">
+                    <button class="btn" id="newChatBtn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        New Chat
+                    </button>
+                    <button class="btn btn-secondary" id="clearAllBtn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                            </path>
+                        </svg>
+                        Clear Memory
+                    </button>
+                </div>
+
+                <div class="search-box" style="padding: 10px 15px; border-bottom: 1px solid var(--glass-border);">
+                    <input type="text" id="chatSearchInput" placeholder="Search chats..."
+                        style="width: 100%; padding: 8px 12px; border-radius: 8px; background: var(--search-bg); border: 1px solid var(--glass-border); color: var(--text-main); font-size: 13px; outline: none; box-sizing: border-box;">
+                </div>
+
+                <div class="session-list" id="sessionList"></div>
+
+                <div class="sidebar-section"
+                    style="margin-top: auto; border-top: 1px solid var(--glass-border); padding-top: 16px;">
+                    <div id="userProfile" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div style="display: flex; align-items: center; gap: 10px; min-width: 0; flex: 1;">
+                            <div id="userAvatar"
+                                style="flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: var(--accent-color); display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">
+                            </div>
+                            <div style="min-width: 0; overflow: hidden;">
+                                <div id="userNameDisplay" style="font-weight: 500; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">User</div>
+                                <div id="userEmailDisplay" style="font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"></div>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; flex-shrink: 0;">
+
+                            <button id="logoutBtn"
+                                style="background: none; border: none; color: var(--text-muted); cursor: pointer; padding: 4px;"
+                                title="Logout">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                    <polyline points="16 17 21 12 16 7"></polyline>
+                                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Area -->
+            <div class="chat-area">
+                <div class="status-wrapper" id="statusArea"></div>
+
+                <div class="messages-container" id="messagesContainer">
+                    <div class="empty-state">
+                        <h3 id="welcomeHeader" style="margin-bottom: 8px; font-weight: 500; color: var(--text-main);">
+                            Welcome to Zyntra AI</h3>
+                        <p style="font-size: 14px;">Select a thread or initialize a new sequence.</p>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <div class="input-group">
+                        <button class="btn-secondary" id="uploadBtn"
+                            style="padding: 12px; border: none; background: transparent; cursor: pointer; border-radius: 12px;"
+                            title="Upload Document">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48" />
+                            </svg>
+                        </button>
+
+                        <input type="file" id="fileInput" style="display: none;"
+                            accept=".pdf,.docx,.txt,.csv,.md,.png,.jpg,.jpeg,.webp" multiple>
+                        <div id="attachmentPreview"
+                            style="margin-left: 8px; display: none; align-items: center; gap: 4px; color: var(--text-main); flex-wrap: wrap;">
+                        </div>
+
+                        <input type="text" id="messageInput" placeholder="Type a command or message..." disabled>
+                        <button class="btn-secondary" id="micBtn"
+                            style="width: 44px; height: 44px; padding: 0; display: flex; align-items: center; justify-content: center; border: none; background: transparent; cursor: pointer; border-radius: 12px; flex-shrink: 0;"
+                            title="Voice Input">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                <line x1="12" x2="12" y1="19" y2="22"></line>
+                            </svg>
+                        </button>
+                        <button class="send-btn" id="sendBtn" disabled>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Configuration
+        const API_BASE = '/api/v1';
+        const STATE = {
+            userId: null,
+            currentSessionId: null,
+            sessions: [],
+            messages: {},
+            attachments: [],
+            searchResults: null
+        };
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            await initializeApp();
+            setupEventListeners();
+        });
+
+        // Initialize App
+        async function initializeApp() {
+            try {
+                // Initialize theme
+                const savedTheme = localStorage.getItem('theme') || 'dark';
+                if (savedTheme === 'light') {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                }
+
+                // Check if user is authenticated via API
+                const response = await fetch(`${API_BASE}/auth/me`);
+                if (!response.ok) {
+                    window.location.href = '/static/auth.html';
+                    return;
+                }
+                const userData = await response.json();
+
+                // Update State
+                STATE.userId = userData.user_id;
+                localStorage.setItem('userId', userData.user_id);
+                localStorage.setItem('userName', userData.name);
+
+                // Update UI Profile
+                document.getElementById('userNameDisplay').textContent = userData.name;
+                document.getElementById('userEmailDisplay').textContent = userData.email;
+                document.getElementById('userAvatar').textContent = userData.name.charAt(0).toUpperCase();
+
+                await loadSessions();
+                document.getElementById('messageInput').disabled = false;
+                document.getElementById('sendBtn').disabled = false;
+                updateWelcomeMessage();
+            } catch (e) {
+                console.error("Auth check failed:", e);
+                window.location.href = '/static/auth.html';
+            }
+        }
+
+        // Setup Event Listeners
+        function setupEventListeners() {
+            // Send message
+            document.getElementById('sendBtn').addEventListener('click', sendMessage);
+            // Voice input using Web Speech API
+            const micBtn = document.getElementById('micBtn');
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-US';
+            recognition.interimResults = false;
+            // When speech is recognized, place text into the input box for user review
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                const input = document.getElementById('messageInput');
+                input.value = transcript;
+                // Keep focus on input for easy editing
+                input.focus();
+            };
+            // Handle possible errors (e.g., permission denied)
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error', event.error);
+                // Optionally, provide visual feedback to the user
+                micBtn.classList.remove('listening');
+                recognizing = false;
+                alert('Voice input error: ' + event.error);
+            };
+            let recognizing = false;
+            micBtn.addEventListener('click', () => {
+                if (recognizing) {
+                    recognition.stop();
+                    recognizing = false;
+                    micBtn.classList.remove('listening');
+                } else {
+                    try {
+                        recognition.start();
+                        recognizing = true;
+                        micBtn.classList.add('listening');
+                    } catch (e) {
+                        console.error('Failed to start speech recognition', e);
+                    }
+                }
+            });
+            // Logout
+            document.getElementById('logoutBtn').addEventListener('click', async () => {
+                try {
+                    await fetch(`${API_BASE}/auth/logout`, { method: 'POST' });
+                    localStorage.removeItem('userId');
+                    localStorage.removeItem('userName');
+                    window.location.href = '/static/auth.html';
+                } catch (e) {
+                    console.error('Logout failed', e);
+                }
+            });
+
+            // Chat Controls
+            document.getElementById('newChatBtn').addEventListener('click', () => {
+                STATE.currentSessionId = null;
+                localStorage.removeItem('lastSessionId');
+                renderSessionList();
+                renderMessages();
+                document.getElementById('messageInput').focus();
+            });
+
+            // Search Input
+            let searchTimeout = null;
+            document.getElementById('chatSearchInput').addEventListener('input', (e) => {
+                clearTimeout(searchTimeout);
+                const query = e.target.value.trim();
+                searchTimeout = setTimeout(async () => {
+                    if (query === '') {
+                        STATE.searchResults = null;
+                        renderSessionList();
+                        return;
+                    }
+
+                    try {
+                        const response = await fetch(`${API_BASE}/sessions/search?q=${encodeURIComponent(query)}`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            STATE.searchResults = data.session_ids || [];
+
+                            // Also search locally by title to make sure we don't miss local title matches
+                            const lowerQuery = query.toLowerCase();
+                            STATE.sessions.forEach(s => {
+                                if ((s.title || 'New Sequence').toLowerCase().includes(lowerQuery) && !STATE.searchResults.includes(s.chat_id || s.session_id)) {
+                                    STATE.searchResults.push(s.chat_id || s.session_id);
+                                }
+                            });
+                            renderSessionList();
+                        }
+                    } catch (err) {
+                        console.error('Error searching:', err);
+                    }
+                }, 300); // 300ms debounce
+            });
+
+            document.getElementById('clearAllBtn').addEventListener('click', clearAllSessions);
+            document.getElementById('sendBtn').addEventListener('click', sendMessage);
+            document.getElementById('logoutBtn').addEventListener('click', async () => {
+                await fetch(`${API_BASE}/auth/logout`, { method: 'POST' });
+                window.location.href = '/static/auth.html';
+            });
+
+            // Theme Toggle
+            const themeBtn = document.getElementById('themeToggleBtn');
+            if (themeBtn) {
+                themeBtn.addEventListener('click', () => {
+                    const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+                    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                    document.documentElement.setAttribute('data-theme', newTheme);
+                    localStorage.setItem('theme', newTheme);
+                });
+            }
+            document.getElementById('messageInput').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    sendMessage();
+                }
+            });
+        }
+
+
+
+        function updateWelcomeMessage() {
+            const userName = localStorage.getItem('userName') || '';
+            const header = document.getElementById('welcomeHeader');
+            if (header && userName) {
+                header.textContent = `Welcome to Zyntra AI, ${userName}`;
+            }
+        }
+
+        // Load Sessions
+        async function loadSessions() {
+            try {
+                const response = await fetch(`${API_BASE}/sessions/user/${STATE.userId}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    STATE.sessions = Array.isArray(data) ? data : (data.sessions || []);
+                    // Sort sessions: pinned first, then newest
+                    STATE.sessions.sort((a, b) => {
+                        if (a.is_pinned && !b.is_pinned) return -1;
+                        if (!a.is_pinned && b.is_pinned) return 1;
+                        return new Date(b.created_at || 0) - new Date(a.created_at || 0);
+                    });
+                    
+                    // Auto-select the last used session or the most recent one if no session is active
+                    if (!STATE.currentSessionId && STATE.sessions.length > 0) {
+                        const savedSessionId = localStorage.getItem('lastSessionId');
+                        const sessionExists = STATE.sessions.find(s => (s.session_id || s.chat_id) === savedSessionId);
+                        
+                        if (sessionExists) {
+                            STATE.currentSessionId = savedSessionId;
+                        } else {
+                            STATE.currentSessionId = STATE.sessions[0].session_id || STATE.sessions[0].chat_id;
+                            localStorage.setItem('lastSessionId', STATE.currentSessionId);
+                        }
+                        await loadMessages(STATE.currentSessionId);
+                    }
+                    
+                    renderSessionList();
+                }
+            } catch (error) {
+                console.error('Error loading sessions:', error);
+                STATE.sessions = [];
+                renderSessionList();
+            }
+        }
+
+        // Render Session List
+        function renderSessionList() {
+            const list = document.getElementById('sessionList');
+            list.innerHTML = '';
+
+            let sessionsToRender = STATE.sessions;
+            if (STATE.searchResults !== null) {
+                sessionsToRender = STATE.sessions.filter(s => STATE.searchResults.includes(s.chat_id || s.session_id));
+            }
+
+            if (!Array.isArray(sessionsToRender) || sessionsToRender.length === 0) {
+                list.innerHTML = '<div style="text-align: center; color: var(--text-muted); padding: 20px; font-size: 13px;">No sequences found</div>';
+                return;
+            }
+
+            sessionsToRender.forEach(session => {
+                const item = document.createElement('div');
+                item.className = `session-item ${session.session_id === STATE.currentSessionId ? 'active' : ''}`;
+
+                const titleSpan = document.createElement('span');
+                titleSpan.innerHTML = session.is_pinned ? `<svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" style="margin-right: 4px; opacity: 0.7; display: inline-block; vertical-align: middle;"><path d="M12 2L12 10M12 10L16 14L16 20L8 20L8 14L12 10Z"></path></svg>` : '';
+                titleSpan.appendChild(document.createTextNode(session.title || 'New Sequence'));
+                titleSpan.title = session.title || 'New Sequence';
+                titleSpan.style.flex = '1';
+                titleSpan.style.minWidth = '0';
+                titleSpan.style.whiteSpace = 'nowrap';
+                titleSpan.style.overflow = 'hidden';
+                titleSpan.style.textOverflow = 'ellipsis';
+                titleSpan.style.paddingRight = '24px'; // Prevent overlapping with absolute buttons
+                item.appendChild(titleSpan);
+
+                // Context Menu
+                const actionsDiv = document.createElement('div');
+                actionsDiv.className = 'session-actions';
+
+                const actionBtn = document.createElement('button');
+                actionBtn.className = 'session-actions-btn';
+                actionBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>';
+
+                const menu = document.createElement('div');
+                menu.className = 'session-menu';
+
+                // Pin Item
+                const pinItem = document.createElement('div');
+                pinItem.className = 'session-menu-item';
+                pinItem.style.color = 'var(--text-main)';
+                pinItem.innerHTML = session.is_pinned
+                    ? '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Unpin Chat'
+                    : '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L12 10M12 10L16 14L16 20L8 20L8 14L12 10Z"></path></svg> Pin Chat';
+                pinItem.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    menu.classList.remove('show');
+                    await updateSession(session.session_id, { is_pinned: !session.is_pinned });
+                });
+                menu.appendChild(pinItem);
+
+                // Rename Item
+                const renameItem = document.createElement('div');
+                renameItem.className = 'session-menu-item';
+                renameItem.style.color = 'var(--text-main)';
+                renameItem.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg> Rename';
+                renameItem.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    menu.classList.remove('show');
+                    const newTitle = prompt('Enter new chat name:', session.title || '');
+                    if (newTitle && newTitle.trim() !== '') {
+                        await updateSession(session.session_id, { title: newTitle.trim() });
+                    }
+                });
+                menu.appendChild(renameItem);
+
+                // Delete Item
+                const deleteItem = document.createElement('div');
+                deleteItem.className = 'session-menu-item';
+                deleteItem.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg> Delete Chat';
+
+                deleteItem.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    menu.classList.remove('show');
+                    deleteSession(session.chat_id || session.session_id);
+                });
+                menu.appendChild(deleteItem);
+
+                // Export Markdown
+                const exportMdItem = document.createElement('div');
+                exportMdItem.className = 'session-menu-item';
+                exportMdItem.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Export MD';
+                exportMdItem.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    menu.classList.remove('show');
+                    exportChat(session.chat_id || session.session_id, session.title || 'Chat', 'md');
+                });
+                menu.appendChild(exportMdItem);
+
+                // Export Text
+                const exportTxtItem = document.createElement('div');
+                exportTxtItem.className = 'session-menu-item';
+                exportTxtItem.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Export TXT';
+                exportTxtItem.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    menu.classList.remove('show');
+                    exportChat(session.chat_id || session.session_id, session.title || 'Chat', 'txt');
+                });
+                menu.appendChild(exportTxtItem);
+
+                // Export PDF
+                const exportPdfItem = document.createElement('div');
+                exportPdfItem.className = 'session-menu-item';
+                exportPdfItem.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg> Export PDF';
+                exportPdfItem.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    menu.classList.remove('show');
+                    exportChat(session.chat_id || session.session_id, session.title || 'Chat', 'pdf');
+                });
+                menu.appendChild(exportPdfItem);
+
+                actionBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    document.querySelectorAll('.session-menu.show').forEach(m => {
+                        if (m !== menu) {
+                            m.classList.remove('show');
+                            if (m.closest('.session-item')) {
+                                m.closest('.session-item').style.zIndex = '';
+                            }
+                        }
+                    });
+                    menu.classList.toggle('show');
+                    if (menu.classList.contains('show')) {
+                        item.style.zIndex = '50';
+                    } else {
+                        item.style.zIndex = '';
+                    }
+                });
+
+                actionsDiv.appendChild(actionBtn);
+                actionsDiv.appendChild(menu);
+                item.appendChild(actionsDiv);
+
+                item.addEventListener('click', () => selectSession(session.session_id));
+                list.appendChild(item);
+            });
+        }
+
+        // Close dropdowns on outside click
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.session-menu.show').forEach(m => {
+                m.classList.remove('show');
+                if (m.closest('.session-item')) {
+                    m.closest('.session-item').style.zIndex = '';
+                }
+            });
+        });
+
+        // Select Session
+        async function selectSession(sessionId) {
+            STATE.currentSessionId = sessionId;
+            localStorage.setItem('lastSessionId', sessionId);
+            renderSessionList();
+            await loadMessages(sessionId);
+            document.getElementById('messageInput').focus();
+        }
+
+        // Delete Session
+        async function deleteSession(sessionId) {
+            if (!confirm('Are you sure you want to delete this chat? This action cannot be undone.')) {
+                return;
+            }
+            try {
+                const response = await fetch(`${API_BASE}/sessions/${sessionId}`, {
+                    method: 'DELETE'
+                });
+
+                if (response.ok) {
+                    if (STATE.currentSessionId === sessionId) {
+                        STATE.currentSessionId = null;
+                        localStorage.removeItem('lastSessionId');
+                        document.getElementById('messagesContainer').innerHTML = `
+                            <div class="empty-state">
+                                <h3 style="margin-bottom: 8px; font-weight: 500; color: #f8fafc;">Sequence Deleted</h3>
+                                <p style="font-size: 14px;">Select a thread or initialize a new sequence.</p>
+                            </div>
+                        `;
+                    }
+                    await loadSessions();
+                } else {
+                    const data = await response.json();
+                    alert(data.detail || 'Failed to delete chat.');
+                }
+            } catch (err) {
+                console.error('Error deleting session:', err);
+                alert('An error occurred while deleting the chat.');
+            }
+        }
+
+        // Update Session
+        async function updateSession(sessionId, data) {
+            try {
+                const response = await fetch(`${API_BASE}/sessions/${sessionId}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                if (response.ok) {
+                    await loadSessions();
+                } else {
+                    console.error('Failed to update session');
+                }
+            } catch (err) {
+                console.error('Error updating session:', err);
+            }
+        }
+
+        // Load Messages
+        async function loadMessages(sessionId) {
+            try {
+                const response = await fetch(`${API_BASE}/chat/history/${sessionId}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    STATE.messages[sessionId] = data.messages || [];
+                    renderMessages();
+                } else {
+                    STATE.messages[sessionId] = [];
+                    renderMessages();
+                }
+            } catch (error) {
+                console.error('Error loading messages:', error);
+                STATE.messages[sessionId] = [];
+                renderMessages();
+            }
+        }
+
+        // Export Chat
+        async function exportChat(sessionId, title, format) {
+            // Ensure messages are loaded
+            if (!STATE.messages[sessionId]) {
+                try {
+                    const response = await fetch(`${API_BASE}/sessions/${sessionId}/messages`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        STATE.messages[sessionId] = data.messages || [];
+                    } else return;
+                } catch (e) { return; }
+            }
+
+            const msgs = STATE.messages[sessionId] || [];
+
+            if (format === 'pdf') {
+                // A quick hack for PDF export without dependencies: open print dialog
+                const printWin = window.open('', '_blank');
+                let html = `<html><head><title>${title}</title><style>
+                    body { font-family: sans-serif; padding: 20px; color: #333; }
+                    .msg { margin-bottom: 16px; line-height: 1.5; }
+                    .role-user { font-weight: bold; color: #2563eb; }
+                    .role-assistant { font-weight: bold; color: #059669; }
+                    pre { background: #f4f4f5; padding: 10px; border-radius: 4px; overflow-x: auto; }
+                    code { font-family: monospace; }
+                </style></head><body><h1>${title}</h1>`;
+
+                msgs.forEach(m => {
+                    const r = m.role === 'user' ? 'You' : 'Zyntra';
+                    const c = m.role === 'user' ? 'role-user' : 'role-assistant';
+                    html += `<div class="msg"><div class="${c}">${r}</div><div>${marked.parse ? marked.parse(m.content) : m.content}</div></div>`;
+                });
+
+                html += '</body></html>';
+                printWin.document.write(html);
+                printWin.document.close();
+                setTimeout(() => { printWin.print(); }, 500);
+                return;
+            }
+
+            let content = '';
+            if (format === 'md') {
+                content += `# ${title}\n\n`;
+                msgs.forEach(m => {
+                    content += `**${m.role === 'user' ? 'You' : 'Zyntra'}**:\n${m.content}\n\n---\n\n`;
+                });
+            } else if (format === 'txt') {
+                content += `${title}\n\n`;
+                msgs.forEach(m => {
+                    // strip html from text if needed, but msgs are mostly markdown text
+                    content += `${m.role === 'user' ? 'You' : 'Zyntra'}:\n${m.content}\n\n-----------------\n\n`;
+                });
+            }
+
+            const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_export.${format}`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        let renderFrame = null;
+        function debouncedRenderMessages() {
+            if (renderFrame) return;
+            renderFrame = requestAnimationFrame(() => {
+                renderMessages();
+                renderFrame = null;
+            });
+        }
+
+        // Render Messages
+        function renderMessages() {
+            const container = document.getElementById('messagesContainer');
+            const messages = STATE.messages[STATE.currentSessionId] || [];
+
+            if (messages.length === 0) {
+                const userName = localStorage.getItem('userName') || '';
+                const welcomeText = userName ? `Welcome to Zyntra AI, ${userName}` : 'Welcome to Zyntra AI';
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3 id="welcomeHeader" style="margin-bottom: 8px; font-weight: 500; color: var(--text-main);">${welcomeText}</h3>
+                        <p style="font-size: 14px;">Input query to commence processing.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const fragment = document.createDocumentFragment();
+            messages.forEach(msg => {
+                const div = document.createElement('div');
+                div.className = `message ${msg.role}`;
+
+                let attachmentsHtml = '';
+                if (msg.attachments && msg.attachments.length > 0) {
+                    msg.attachments.forEach(att => {
+                        let sizeStr = '';
+                        if (att.size) {
+                            if (att.size < 1024) sizeStr = att.size + ' B';
+                            else if (att.size < 1024 * 1024) sizeStr = (att.size / 1024).toFixed(1) + ' KB';
+                            else sizeStr = (att.size / (1024 * 1024)).toFixed(1) + ' MB';
+                        }
+
+                        attachmentsHtml += `
+                            <a href="${att.url || '#'}" target="_blank" download="${att.name}" style="display: flex; align-items: center; gap: 12px; background: var(--bg-main); padding: 12px; border-radius: 12px; border: 1px solid var(--glass-border); text-decoration: none; color: var(--text-main); margin-bottom: 8px; width: fit-content; max-width: 100%;">
+                                <div style="background: var(--accent-color); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                </div>
+                                <div style="display: flex; flex-direction: column; overflow: hidden;">
+                                    <span style="font-weight: 500; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${att.name}</span>
+                                    <span style="font-size: 12px; color: var(--text-muted);">${sizeStr ? sizeStr + ' • ' : ''}Attachment</span>
+                                </div>
+                            </a>
+                        `;
+                    });
+                }
+
+                div.innerHTML = `
+                    <div style="display: flex; flex-direction: column;">
+                        <div class="message-content">
+                            ${attachmentsHtml}
+                            ${msg.content ? formatMarkdown(msg.content) : ''}
+                            ${msg.role === 'assistant' ? `
+                                <button class="msg-speaker-btn" onclick="playTTS(this, \`${escapeJsString(msg.content)}\`)" title="Read Aloud">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                                </button>
+                            ` : ''}
+                        </div>
+                        <div class="message-time">${formatTime(msg.created_at)}</div>
+                    </div>
+                `;
+                fragment.appendChild(div);
+            });
+
+            container.innerHTML = '';
+            container.appendChild(fragment);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        // Simple Markdown formatter for basic aesthetics
+        function formatMarkdown(text) {
+            let escaped = escapeHtml(text);
+            escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            escaped = escaped.replace(/\*(.*?)\*/g, '<em>$1</em>');
+            escaped = escaped.replace(/```([\s\S]*?)```/g, '<pre style="background: var(--code-bg); padding: 10px; border-radius: 8px; overflow-x: auto; margin: 8px 0;"><code>$1</code></pre>');
+            escaped = escaped.replace(/`([^`]+)`/g, '<code style="background: var(--code-bg); padding: 2px 4px; border-radius: 4px; font-family: monospace;">$1</code>');
+            escaped = escaped.replace(/\n/g, '<br>');
+            return escaped;
+        }
+
+        // Ensure Session
+        async function ensureSessionExists(titleSourceText) {
+            if (STATE.currentSessionId) return true;
+            try {
+                showStatus('Initializing auto-sequence...', 'info');
+                const resp = await fetch(`${API_BASE}/sessions/create`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_id: STATE.userId })
+                });
+                if (resp.ok) {
+                    const session = await resp.json();
+                    STATE.currentSessionId = session.session_id;
+                    localStorage.setItem('lastSessionId', STATE.currentSessionId);
+                    await loadSessions();
+                    renderSessionList();
+                    return true;
+                } else {
+                    console.error('Failed to create sequence');
+                    return false;
+                }
+            } catch (e) {
+                console.error('Network anomaly during session creation', e);
+                return false;
+            }
+        }
+
+        // Send Message
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+
+            if (!message && (!STATE.attachments || STATE.attachments.length === 0)) return;
+
+            // Ensure a session exists
+            if (!STATE.currentSessionId) {
+                const titleSource = message || (STATE.attachments && STATE.attachments.length > 0 ? STATE.attachments[0].name : 'New Sequence');
+                const success = await ensureSessionExists(titleSource);
+                if (!success) {
+                    showStatus('Failed to create sequence', 'error');
+                    return;
+                }
+            }
+
+            // Prepare UI for user message (if any or if attachment)
+            if (message || (STATE.attachments && STATE.attachments.length > 0)) {
+                const msgs = STATE.messages[STATE.currentSessionId] || [];
+                let msgAttachments = [];
+                if (STATE.attachments && STATE.attachments.length > 0) {
+                    msgAttachments = STATE.attachments.map(f => ({
+                        name: f.name,
+                        size: f.size,
+                        type: f.type,
+                        url: URL.createObjectURL(f)
+                    }));
+                }
+                msgs.push({
+                    role: 'user',
+                    content: message,
+                    created_at: new Date().toISOString(),
+                    attachments: msgAttachments
+                });
+                STATE.messages[STATE.currentSessionId] = msgs;
+                renderMessages();
+            }
+
+            // Handle attachment upload with message in single request
+            if (STATE.attachments && STATE.attachments.length > 0) {
+                const formData = new FormData();
+                formData.append('session_id', STATE.currentSessionId);
+                formData.append('message', message);
+                STATE.attachments.forEach(file => {
+                    formData.append('files', file);
+                });
+
+                showStatus('Uploading document and processing...', 'info');
+                try {
+                    const resp = await fetch(`${API_BASE}/chat`, { method: 'POST', body: formData });
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        // Assume data.response contains assistant reply
+                        const msgs = STATE.messages[STATE.currentSessionId] || [];
+                        msgs.push({ role: 'assistant', content: data.response, created_at: new Date().toISOString() });
+                        STATE.messages[STATE.currentSessionId] = msgs;
+                        renderMessages();
+                        showStatus('Done', 'success');
+
+                        // Check if we need to refresh the session list to get the auto-generated title
+                        if (msgs.length <= 2) {
+                            setTimeout(loadSessions, 3000);
+                        }
+                    } else {
+                        showStatus('Upload/message failed', 'error');
+                    }
+                } catch (e) {
+                    showStatus('Network error', 'error');
+                } finally {
+                    // Clear attachment state
+                    STATE.attachments = [];
+                    const preview = document.getElementById('attachmentPreview');
+                    preview.innerHTML = '';
+                    preview.style.display = 'none';
+                }
+                input.value = '';
+                document.getElementById('sendBtn').disabled = false;
+                return;
+            }
+
+            // No attachment – fall back to streaming chat as before
+            input.value = '';
+            document.getElementById('sendBtn').disabled = true;
+
+            showStatus('<div class="typing-indicator"><span></span><span></span><span></span></div>', 'info');
+
+            try {
+                const response = await fetch(`${API_BASE}/chat/stream`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        user_id: STATE.userId,
+                        session_id: STATE.currentSessionId,
+                        message: message
+                    })
+                });
+
+                if (response.ok) {
+                    showStatus('', '');
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder("utf-8");
+
+                    const msgs = STATE.messages[STATE.currentSessionId] || [];
+                    msgs.push({ role: 'assistant', content: '', created_at: new Date().toISOString() });
+                    const msgIndex = msgs.length - 1;
+
+                    while (true) {
+                        const { done, value } = await reader.read();
+                        if (done) break;
+                        const chunk = decoder.decode(value, { stream: true });
+                        const lines = chunk.split('\n\n');
+                        for (const line of lines) {
+                            if (line.startsWith('data: ')) {
+                                const dataStr = line.substring(6);
+                                try {
+                                    const data = JSON.parse(dataStr);
+                                    if (data.error) console.error(data.error);
+                                    if (data.type === 'citations') {
+                                        const citations = data.data;
+                                        if (citations && citations.length > 0) {
+                                            let citationsHtml = '<div class="citations-block" style="margin-top: 12px; font-size: 12px; border-top: 1px solid var(--glass-border); padding-top: 8px;"><div style="color: var(--text-muted); margin-bottom: 4px; font-weight: 500;">Sources:</div>';
+                                            citations.forEach((c, i) => {
+                                                const filename = c.metadata ? (c.metadata.filename || 'Document') : 'Document';
+                                                citationsHtml += `<div class="citation-item" style="background: var(--glass-bg); padding: 4px 8px; border-radius: 4px; margin-bottom: 4px; display: inline-block; margin-right: 4px;" title="${c.text.substring(0, 100)}...">[${i + 1}] ${filename}</div>`;
+                                            });
+                                            citationsHtml += '</div>';
+                                            msgs[msgIndex].content += citationsHtml;
+                                            STATE.messages[STATE.currentSessionId] = msgs;
+                                            debouncedRenderMessages();
+                                        }
+                                    } else if (data.chunk) {
+                                        msgs[msgIndex].content += data.chunk;
+                                        STATE.messages[STATE.currentSessionId] = msgs;
+                                        debouncedRenderMessages();
+                                    }
+                                } catch (e) { }
+                            }
+                        }
+                    }
+
+                    // Check if we need to refresh the session list to get the auto-generated title
+                    const msgsAfter = STATE.messages[STATE.currentSessionId] || [];
+                    if (msgsAfter.length <= 2) {
+                        setTimeout(loadSessions, 3000);
+                    }
+                } else {
+                    showStatus('Processing error', 'error');
+                }
+            } catch (error) {
+                showStatus('Transmission failed', 'error');
+            } finally {
+                document.getElementById('sendBtn').disabled = false;
+                input.focus();
+            }
+        }
+
+        // File Upload Logic
+        // Upload button now just opens file picker; attachment handling is done on send
+        document.getElementById('uploadBtn').addEventListener('click', () => {
+            document.getElementById('fileInput').click();
+        });
+
+        // Handle file selection – store as attachment and show preview badge
+        document.getElementById('fileInput').addEventListener('change', (e) => {
+            const files = Array.from(e.target.files);
+            if (files.length === 0) return;
+
+            // Store attachment in state
+            STATE.attachments = [...(STATE.attachments || []), ...files];
+
+            renderAttachmentPreview();
+            e.target.value = '';
+        });
+
+        function renderAttachmentPreview() {
+            const preview = document.getElementById('attachmentPreview');
+            preview.innerHTML = '';
+            if (!STATE.attachments || STATE.attachments.length === 0) {
+                preview.style.display = 'none';
+                return;
+            }
+
+            STATE.attachments.forEach((file, idx) => {
+                const chip = document.createElement('span');
+                chip.style.cssText = 'background: var(--glass-bg); padding: 4px 8px; border-radius: 8px; border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 6px; font-size: 12px; margin-right: 4px; margin-bottom: 4px;';
+                chip.innerHTML = `
+                    📎 <span style="max-width: 100px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${file.name}</span>
+                    <button class="remove-attachment-btn" data-idx="${idx}" style="background:none;border:none;color:var(--text-muted);cursor:pointer;padding:0;">✖</button>
+                `;
+                preview.appendChild(chip);
+            });
+            preview.style.display = 'flex';
+
+            document.querySelectorAll('.remove-attachment-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const idx = parseInt(e.currentTarget.getAttribute('data-idx'));
+                    STATE.attachments.splice(idx, 1);
+                    renderAttachmentPreview();
+                });
+            });
+        }
+
+        // Voice & TTS Logic
+        let currentAudio = null;
+        let mediaRecorder;
+        let audioChunks = [];
+        let voiceModeActive = false;
+        let voiceState = 'idle'; // idle, listening, thinking, speaking
+        let currentStream = null;
+
+        // Escape string for inline JS
+        function escapeJsString(str) {
+            return (str || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/'/g, "\\'").replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/`/g, '\\`');
+        }
+
+        async function playTTS(btn, text) {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                document.querySelectorAll('.msg-speaker-btn').forEach(b => b.classList.remove('playing'));
+                if (currentAudio.btn === btn) {
+                    currentAudio = null; // Toggle off if clicking the same button
+                    return;
+                }
+            }
+
+            btn.classList.add('playing');
+            showStatus('Synthesizing speech...', 'info');
+
+            try {
+                const response = await fetch(`${API_BASE}/chat/tts`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text })
+                });
+
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const audioUrl = URL.createObjectURL(blob);
+                    currentAudio = new Audio(audioUrl);
+                    currentAudio.btn = btn;
+                    currentAudio.onended = () => {
+                        btn.classList.remove('playing');
+                        currentAudio = null;
+                    };
+                    currentAudio.play();
+                    showStatus('', '');
+                } else {
+                    btn.classList.remove('playing');
+                    showStatus('TTS failed', 'error');
+                }
+            } catch (e) {
+                btn.classList.remove('playing');
+                showStatus('TTS network error', 'error');
+            }
+        }
+
+        // Clear All Sessions
+        async function clearAllSessions() {
+            if (!confirm('Warning: This will permanently purge all sequences and memory. Proceed?')) {
+                return;
+            }
+
+            try {
+                for (const session of STATE.sessions) {
+                    await fetch(`${API_BASE}/sessions/${session.session_id}`, {
+                        method: 'DELETE'
+                    });
+                }
+                STATE.sessions = [];
+                STATE.currentSessionId = null;
+                localStorage.removeItem('lastSessionId');
+                STATE.messages = {};
+                renderSessionList();
+                document.getElementById('messagesContainer').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">✨</div>
+                        <h3 style="margin-bottom: 8px; font-weight: 500; color: #f8fafc;">Memory Purged</h3>
+                        <p style="font-size: 14px;">All data erased. System ready.</p>
+                    </div>
+                `;
+                showStatus('Memory purged', 'success');
+            } catch (error) {
+                showStatus('Purge failed', 'error');
+            }
+        }
+
+        // Modal Helpers
+        function showModal(id) {
+            document.getElementById(id).classList.add('active');
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+        }
+
+        // Status Message
+        function showStatus(message, type) {
+            const area = document.getElementById('statusArea');
+            if (!message) {
+                area.innerHTML = '';
+                return;
+            }
+            area.innerHTML = `<div class="status ${type}">${message}</div>`;
+
+            // Auto hide success/error messages after 3s
+            if (type === 'success' || type === 'error') {
+                setTimeout(() => {
+                    if (area.innerHTML.includes(message)) {
+                        area.innerHTML = '';
+                    }
+                }, 3000);
+            }
+        }
+
+        // Utilities
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatTime(isoString) {
+            const date = new Date(isoString);
+            return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+    </script>
+</body>
+
+</html>

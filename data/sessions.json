@@ -1,0 +1,242 @@
+{
+  "4daf3b3b-586c-4cd5-bf8b-51d439668f0f": {
+    "session_id": "4daf3b3b-586c-4cd5-bf8b-51d439668f0f",
+    "user_id": "8d9be6c2-7cb2-46d2-bf8c-8bf2ff76e706",
+    "title": "Test Conversation",
+    "created_at": "2026-06-23T16:43:49.905891",
+    "is_active": true,
+    "message_count": 2
+  },
+  "62a77d22-d5e7-4f02-b46a-e75b51fd489e": {
+    "session_id": "62a77d22-d5e7-4f02-b46a-e75b51fd489e",
+    "user_id": "2a5e4ab7-8709-4bff-a870-e2a64dd139ff",
+    "title": "Frontend Test Session",
+    "created_at": "2026-06-23T16:49:09.100258",
+    "is_active": true,
+    "message_count": 1
+  },
+  "1": {
+    "session_id": "1",
+    "user_id": "101",
+    "title": "Session 1",
+    "created_at": "2026-06-23T16:54:24.872116",
+    "is_active": true,
+    "message_count": 1
+  },
+  "3f9a0d84-2c78-4ede-97e4-7daf6e0ee4f3": {
+    "session_id": "3f9a0d84-2c78-4ede-97e4-7daf6e0ee4f3",
+    "user_id": "user_1782213684854",
+    "title": "jeel",
+    "created_at": "2026-06-23T16:55:06.587099",
+    "is_active": true,
+    "message_count": 0
+  },
+  "test_session_123": {
+    "session_id": "test_session_123",
+    "user_id": "test_user_123",
+    "title": "Test Chat Session",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T14:58:34.858346",
+    "updated_at": "2026-07-01T14:58:34.858346",
+    "last_accessed_at": "2026-07-01T14:58:34.858346",
+    "is_active": true,
+    "message_count": 12
+  },
+  "b6e6340f-22a9-457e-ba12-5b2c33d92746": {
+    "session_id": "b6e6340f-22a9-457e-ba12-5b2c33d92746",
+    "user_id": "user_1782306500288",
+    "title": "Session b6e6340f",
+    "created_at": "2026-06-24T18:39:54.546298",
+    "is_active": true,
+    "message_count": 2
+  },
+  "025b8a63-5d3c-4a77-bbb2-b9ff8108ae26": {
+    "session_id": "025b8a63-5d3c-4a77-bbb2-b9ff8108ae26",
+    "user_id": "user_1782306500288",
+    "title": "Session 025b8a63",
+    "created_at": "2026-06-24T18:49:26.550719",
+    "is_active": true,
+    "message_count": 2
+  },
+  "test_curl": {
+    "session_id": "test_curl",
+    "user_id": "default_user",
+    "title": "Session test_cur",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-06-26T17:24:43.431064",
+    "updated_at": "2026-06-26T17:24:43.431064",
+    "last_accessed_at": "2026-06-26T17:24:43.431064",
+    "is_active": true,
+    "message_count": 2
+  },
+  "session123": {
+    "session_id": "session123",
+    "user_id": "default_user",
+    "title": "Session session1",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-06-26T18:08:35.711775",
+    "updated_at": "2026-06-26T18:08:35.711775",
+    "last_accessed_at": "2026-06-26T18:08:35.711775",
+    "is_active": true,
+    "message_count": 4
+  },
+  "820c0414-e28c-47be-bf49-32b7eaddc4e6": {
+    "session_id": "820c0414-e28c-47be-bf49-32b7eaddc4e6",
+    "user_id": "37f294a0-a272-41e5-a12c-aaf786cc168d",
+    "title": "Test Conversation",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-06-29T16:15:32.753392",
+    "updated_at": "2026-06-29T16:15:32.753392",
+    "last_accessed_at": "2026-06-29T16:15:32.753392",
+    "is_active": true,
+    "message_count": 2
+  },
+  "f5765145-b852-4540-9ccf-772d24e68082": {
+    "session_id": "f5765145-b852-4540-9ccf-772d24e68082",
+    "user_id": "a2e588a2-25dc-44aa-bb92-a3568310a1ad",
+    "title": "Test Conversation",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T14:57:04.682551",
+    "updated_at": "2026-07-01T14:57:04.682551",
+    "last_accessed_at": "2026-07-01T14:57:04.682551",
+    "is_active": true,
+    "message_count": 2
+  },
+  "19fd0f5f-4682-42a0-ac84-96c164b858e5": {
+    "session_id": "19fd0f5f-4682-42a0-ac84-96c164b858e5",
+    "user_id": "2615c487-fd87-4ca2-924c-07dd694ac480",
+    "title": "Frontend Test Session",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T14:57:54.014146",
+    "updated_at": "2026-07-01T14:57:54.014146",
+    "last_accessed_at": "2026-07-01T14:57:54.014146",
+    "is_active": true,
+    "message_count": 1
+  },
+  "284f98ec-9825-4473-9841-4186ed292c53": {
+    "session_id": "284f98ec-9825-4473-9841-4186ed292c53",
+    "user_id": "fdacefd2-7f07-4693-8ebd-9690c0b5de38",
+    "title": "Test Conversation",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T14:57:54.036577",
+    "updated_at": "2026-07-01T14:57:54.036577",
+    "last_accessed_at": "2026-07-01T14:57:54.036577",
+    "is_active": true,
+    "message_count": 2
+  },
+  "8dadb922-dab3-4d2e-8649-ecb62ccd5eab": {
+    "session_id": "8dadb922-dab3-4d2e-8649-ecb62ccd5eab",
+    "user_id": "c8f9e8f2-c15a-41a3-a08e-eb7b561ed21f",
+    "title": "Frontend Test Session",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T14:58:38.326560",
+    "updated_at": "2026-07-01T14:58:38.326560",
+    "last_accessed_at": "2026-07-01T14:58:38.326560",
+    "is_active": true,
+    "message_count": 1
+  },
+  "f58b5c42-9054-4046-94cd-d66f103304e0": {
+    "session_id": "f58b5c42-9054-4046-94cd-d66f103304e0",
+    "user_id": "83850575-358a-425f-9442-45bebaec4333",
+    "title": "Test Conversation",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T14:58:38.349950",
+    "updated_at": "2026-07-01T14:58:38.349950",
+    "last_accessed_at": "2026-07-01T14:58:38.349950",
+    "is_active": true,
+    "message_count": 2
+  },
+  "test_session_stream": {
+    "session_id": "test_session_stream",
+    "user_id": "test_user",
+    "title": "what is my name?",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T18:08:00.375499",
+    "updated_at": "2026-07-01T18:08:00.375499",
+    "last_accessed_at": "2026-07-01T18:08:00.375499",
+    "is_active": true,
+    "message_count": 4
+  },
+  "e2a03cd4-c3c1-44e1-8f6b-b7023a0784a5": {
+    "session_id": "e2a03cd4-c3c1-44e1-8f6b-b7023a0784a5",
+    "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+    "title": "Hello",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T18:12:44.546006",
+    "updated_at": "2026-07-01T18:12:44.546006",
+    "last_accessed_at": "2026-07-01T18:12:44.546006",
+    "is_active": true,
+    "message_count": 3
+  },
+  "6f156cf0-0179-45e1-b3af-fc35b3e21990": {
+    "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+    "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+    "title": "hello",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T18:18:58.362883",
+    "updated_at": "2026-07-01T18:18:58.362883",
+    "last_accessed_at": "2026-07-01T18:18:58.362883",
+    "is_active": true,
+    "message_count": 16
+  },
+  "9f919359-4c05-4c12-95a7-1dbe80a3d868": {
+    "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+    "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+    "title": "Hello",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-01T18:30:38.563622",
+    "updated_at": "2026-07-01T18:30:38.563622",
+    "last_accessed_at": "2026-07-01T18:30:38.563622",
+    "is_active": true,
+    "message_count": 8
+  },
+  "a0da53ce-484a-4b96-ae0a-516a505e7ae9": {
+    "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+    "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+    "title": "Hello",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-03T14:44:21.850122",
+    "updated_at": "2026-07-03T14:44:21.850122",
+    "last_accessed_at": "2026-07-03T14:44:21.850122",
+    "is_active": true,
+    "message_count": 8
+  },
+  "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356": {
+    "session_id": "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356",
+    "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+    "title": "what is the capital of india?",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-03T15:16:44.053145",
+    "updated_at": "2026-07-03T15:16:44.053145",
+    "last_accessed_at": "2026-07-03T15:16:44.053145",
+    "is_active": true,
+    "message_count": 4
+  },
+  "6f585677-225c-4077-a896-350d0cfc802d": {
+    "session_id": "6f585677-225c-4077-a896-350d0cfc802d",
+    "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+    "title": "Hello",
+    "description": null,
+    "app_name": "chatbot",
+    "created_at": "2026-07-03T15:44:59.467353",
+    "updated_at": "2026-07-03T15:44:59.467353",
+    "last_accessed_at": "2026-07-03T15:44:59.467353",
+    "is_active": true,
+    "message_count": 2
+  }
+}

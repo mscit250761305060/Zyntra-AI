@@ -1,0 +1,3122 @@
+{
+  "4daf3b3b-586c-4cd5-bf8b-51d439668f0f": [
+    {
+      "message_id": "0e662fbb-3b3e-427c-960e-7a2306a29b8f",
+      "session_id": "4daf3b3b-586c-4cd5-bf8b-51d439668f0f",
+      "user_id": "8d9be6c2-7cb2-46d2-bf8c-8bf2ff76e706",
+      "role": "user",
+      "content": "Hello, what is Python?",
+      "agent_name": null,
+      "created_at": "2026-06-23T16:43:49.911963"
+    },
+    {
+      "message_id": "b3ccb9a1-4a09-4f8e-8d86-c49bafb7401d",
+      "session_id": "4daf3b3b-586c-4cd5-bf8b-51d439668f0f",
+      "user_id": "8d9be6c2-7cb2-46d2-bf8c-8bf2ff76e706",
+      "role": "assistant",
+      "content": "Python is a programming language...",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-23T16:43:49.917229"
+    }
+  ],
+  "62a77d22-d5e7-4f02-b46a-e75b51fd489e": [
+    {
+      "message_id": "79855147-2f92-4eac-91cd-8e5247eed188",
+      "session_id": "62a77d22-d5e7-4f02-b46a-e75b51fd489e",
+      "user_id": "2a5e4ab7-8709-4bff-a870-e2a64dd139ff",
+      "role": "user",
+      "content": "Frontend test message",
+      "agent_name": null,
+      "created_at": "2026-06-23T16:49:09.105924"
+    }
+  ],
+  "1": [
+    {
+      "message_id": "26a325cf-a756-4016-9bcf-96b8bc9e2b74",
+      "session_id": "1",
+      "user_id": "101",
+      "role": "user",
+      "content": "hii",
+      "agent_name": null,
+      "created_at": "2026-06-23T16:54:24.872876"
+    }
+  ],
+  "test_session_123": [
+    {
+      "message_id": "c8fb4fcf-b3ee-4e64-a764-51b60cba3da6",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "user",
+      "content": "Hello! What is Python?",
+      "agent_name": null,
+      "created_at": "2026-06-23T16:57:03.472933"
+    },
+    {
+      "message_id": "d3752b9e-57a1-471d-bd85-c1a499d07195",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "assistant",
+      "content": "Hello! \ud83d\udc4b How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-23T16:57:18.779366"
+    },
+    {
+      "message_id": "7cf02baf-7582-4785-a0b5-090368efffe7",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "user",
+      "content": "Can you help me?",
+      "agent_name": null,
+      "created_at": "2026-06-23T16:57:18.798624"
+    },
+    {
+      "message_id": "7119a237-0986-457b-b4c7-01e3780e1839",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "assistant",
+      "content": "Of course! I'm here to help. What do you need assistance with?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-23T16:57:19.117660"
+    },
+    {
+      "message_id": "a7dc7191-77fe-4e03-b2aa-21bd3757a5d7",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "user",
+      "content": "Hello! What is Python?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:50.825330"
+    },
+    {
+      "message_id": "65cd10a5-44f6-4bbf-bffe-a3ba6b44d720",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "assistant",
+      "content": "Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Created by Guido van Rossum and first released in 1991, it has become one of the most popular languages in the world.\n\nHere are the key characteristics that define Python:\n\n*   **Easy to Read and Learn:** Python\u2019s syntax is designed to be clean and intuitive, often resembling English. This makes it an excellent choice for beginners as well as experienced developers.\n*   **Interpreted Language:** Python code is executed line-by-line, which makes debugging easier and development faster compared to compiled languages like C++ or Java.\n*   **Dynamically Typed:** You don't need to declare data types explicitly; the interpreter figures out the type of a variable at runtime.\n*   **Extensive Standard Library:** Python comes with a \"batteries included\" philosophy, providing a massive standard library that supports many tasks like connecting to web servers, reading/modifying files, working with data, and more.\n*   **Versatility:** Python is used across a wide range of fields, including:\n    *   **Data Science and Artificial Intelligence:** It is the industry standard for machine learning, deep learning, and data analysis (using libraries like Pandas, NumPy, and PyTorch).\n    *   **Web Development:** Frameworks like Django and Flask allow for rapid creation of robust web applications.\n    *   **Automation and Scripting:** It is widely used for automating mundane tasks, system administration, and scraping data from the web.\n    *   **Scientific Computing:** It is heavily used in research and academia for complex mathematical and scientific calculations.\n*   **Huge Community:** Because of its popularity, there is an enormous ecosystem of third-party packages, extensive documentation, and active community support.\n\nIn short, Python is a \"general-purpose\" language, meaning it can be used to build almost anything, but it truly excels in data-driven fields and rapid software prototyping.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:57:52.948747"
+    },
+    {
+      "message_id": "c0f0254e-6a3b-4811-bc1f-589fd4d82493",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "user",
+      "content": "Can you help me?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:52.972643"
+    },
+    {
+      "message_id": "7cb91af7-4fbd-4fd7-a7e3-aaa541d00af8",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "assistant",
+      "content": "I would be happy to help! Please let me know what you need assistance with. \n\nAre you looking for help with a programming project, need information on a specific topic, require a plan for a task, or is there something else I can do for you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:57:53.989746"
+    },
+    {
+      "message_id": "0851fefa-3ac8-4272-9c45-dccef26c911c",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "user",
+      "content": "Hello! What is Python?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:58:34.865739"
+    },
+    {
+      "message_id": "969f0d54-1e1e-49a4-aca3-e5455fa2530a",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "assistant",
+      "content": "Python is a high-level, interpreted programming language known for its clear syntax and readability. It is designed to be easy to learn and is widely used across many different fields.\n\nKey characteristics of Python include:\n\n*   **Readability:** Python uses a clean, English-like syntax that emphasizes code readability, making it easier for developers to write and maintain.\n*   **Interpreted:** Python code is executed line-by-line, which makes debugging easier and development faster.\n*   **Versatile:** It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.\n*   **Extensive Standard Library:** It comes with a \"batteries included\" philosophy, providing a massive library of pre-written code for tasks like file I/O, networking, data manipulation, and more.\n*   **Large Ecosystem:** There are thousands of third-party libraries and frameworks available (such as NumPy, Pandas, Django, and TensorFlow), which extend its functionality significantly.\n\n**Common Use Cases:**\n*   **Data Science and Machine Learning:** It is the industry standard for data analysis, artificial intelligence, and statistical modeling.\n*   **Web Development:** Frameworks like Django and Flask make it easy to build powerful web applications.\n*   **Automation and Scripting:** Python is widely used to write \"glue code\" to automate repetitive tasks and system administrative work.\n*   **Software Testing:** Many developers use Python to write unit tests and integration tests for software applications.\n\nBecause of its balance between power and simplicity, Python is consistently ranked as one of the most popular programming languages in the world, making it an excellent choice for both beginners and experienced professionals.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:58:36.970074"
+    },
+    {
+      "message_id": "82054449-83d4-4cff-8490-dd5bcbfd10bc",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "user",
+      "content": "Can you help me?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:58:36.989412"
+    },
+    {
+      "message_id": "25bca38c-9833-45e6-a698-8fb91bc1b0a7",
+      "session_id": "test_session_123",
+      "user_id": "test_user_123",
+      "role": "assistant",
+      "content": "I would be happy to help! Please let me know what you need assistance with. \n\nAre you looking for help with a programming task, a research project, organizing a plan, or something else? Just provide the details, and I will either handle it directly or direct you to the right specialist.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:58:38.299879"
+    }
+  ],
+  "b6e6340f-22a9-457e-ba12-5b2c33d92746": [
+    {
+      "message_id": "f7e0544d-7126-48e5-adcd-2feb3415078d",
+      "session_id": "b6e6340f-22a9-457e-ba12-5b2c33d92746",
+      "user_id": "user_1782306500288",
+      "role": "user",
+      "content": "hii",
+      "agent_name": null,
+      "created_at": "2026-06-24T18:39:54.565208"
+    },
+    {
+      "message_id": "14d0c675-7896-426a-88cd-7da3d75f6f34",
+      "session_id": "b6e6340f-22a9-457e-ba12-5b2c33d92746",
+      "user_id": "user_1782306500288",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-24T18:40:18.193848"
+    }
+  ],
+  "92eb18fb-d9b0-4002-a44e-7ce84cfeab15": [
+    {
+      "message_id": "77fd60f9-3d54-4320-938b-af9be1c283d5",
+      "session_id": "92eb18fb-d9b0-4002-a44e-7ce84cfeab15",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-24T18:41:52.514092"
+    },
+    {
+      "message_id": "a919023e-d759-42e4-9881-8e126d4d1714",
+      "session_id": "92eb18fb-d9b0-4002-a44e-7ce84cfeab15",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Hello there! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-24T18:42:11.866538"
+    },
+    {
+      "message_id": "58d874f1-5f48-4e61-bd17-0cdd442372d2",
+      "session_id": "92eb18fb-d9b0-4002-a44e-7ce84cfeab15",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "what is gandhi ji?",
+      "agent_name": null,
+      "created_at": "2026-06-24T18:42:29.649896"
+    },
+    {
+      "message_id": "92dbb9ce-8d6a-4711-b4ca-3971494a5802",
+      "session_id": "92eb18fb-d9b0-4002-a44e-7ce84cfeab15",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Mahatma Gandhi, often referred to as \"Gandhi Ji\" (a respectful term meaning \"respected Gandhi\"), was a pivotal figure in Indian history and a globally recognized leader for his philosophy of nonviolent resistance (Satyagraha).\n\nHere's a breakdown of who he was:\n\n*   **Leader of India's Independence Movement:** Gandhi is most famous for leading India to independence from British rule. He mobilized millions of Indians through civil disobedience and peaceful protest, becoming the most prominent leader of the Indian National Congress.\n\n*   **Advocate of Nonviolent Resistance (Satyagraha):** This was his core philosophy and method of struggle. Satyagraha translates to \"truth force\" or \"soul force.\" It involved:\n    *   **Civil Disobedience:** Willfully breaking unjust laws.\n    *   **Non-cooperation:** Refusing to cooperate with oppressive systems.\n    *   **Peaceful Protest:** Demonstrations, strikes, and marches that were strictly nonviolent.\n    *   **Fasting:** Often used as a powerful moral weapon to draw attention to injustices and to inspire change.\n\n*   **Spiritual and Moral Leader:** Gandhi was deeply spiritual and believed in the inherent dignity of all humans. His life was dedicated to principles of truth, non-violence, simplicity, and self-sufficiency. He lived a very ascetic life, wearing simple khadi cloth and advocating for the poor and marginalized.\n\n*   **Influential Figure Worldwide:** His philosophy and methods have inspired countless movements for civil rights and freedom across the globe, including the American Civil Rights Movement led by Martin Luther King Jr.\n\n*   **Key Beliefs and Contributions:**\n    *   **Ahimsa (Non-violence):** The cornerstone of his philosophy.\n    *   **Swaraj (Self-rule):** Both political independence for India and personal self-control.\n    *   **Sarvodaya (Welfare of All):** A vision of a society where everyone's welfare is paramount.\n    *   **Simple Living and Self-Sufficiency:** Promoting village industries and hand-spun cloth (khadi) as a symbol of independence.\n    *   **Religious Harmony:** Advocating for peaceful coexistence between different religious communities in India.\n\nIn essence, Gandhi Ji was a profound leader who championed a revolutionary approach to social and political change, leaving an indelible mark on the world.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-24T18:42:45.910121"
+    },
+    {
+      "message_id": "7d7caaf6-0aef-4f3c-9163-8f76408e1746",
+      "session_id": "92eb18fb-d9b0-4002-a44e-7ce84cfeab15",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "what is narendra modi?",
+      "agent_name": null,
+      "created_at": "2026-06-24T18:43:18.754013"
+    },
+    {
+      "message_id": "8b065011-77c7-45f6-bf1f-62aee0148c36",
+      "session_id": "92eb18fb-d9b0-4002-a44e-7ce84cfeab15",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Narendra Modi is the **current Prime Minister of India**.\n\nHere's a breakdown of who he is:\n\n*   **Political Leader:** He is a prominent Indian politician and a member of the Bharatiya Janata Party (BJP).\n*   **Prime Minister of India:** He assumed office as Prime Minister in May 2014 and was re-elected for a second term in May 2019.\n*   **Chief Minister of Gujarat:** Before becoming Prime Minister, he served as the Chief Minister of the Indian state of Gujarat for over 12 years, from 2001 to 2014.\n*   **Leader of the BJP:** He is a key figure and a prominent face of the Bharatiya Janata Party (BJP), a major political party in India.\n\n**Key Aspects of his Political Career and Ideology:**\n\n*   **Economic Development:** A central theme of his politics has been an emphasis on economic growth, development, and improving India's infrastructure.\n*   **Hindu Nationalism:** He is associated with the ideology of Hindu nationalism, which emphasizes the cultural and political dominance of Hinduism in India.\n*   **\"Make in India\" Initiative:** He launched this campaign to encourage domestic manufacturing and attract foreign investment.\n*   **Digital India:** Another major initiative aimed at transforming India into a digitally empowered society and knowledge economy.\n*   **Welfare Schemes:** His government has introduced various welfare programs aimed at poverty alleviation, sanitation, and financial inclusion.\n*   **Foreign Policy:** He has been active in shaping India's foreign policy, strengthening ties with various countries.\n\nNarendra Modi is a highly influential and often polarizing figure in Indian politics. His tenure as Prime Minister has been marked by significant policy changes and a strong focus on national development and identity.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-24T18:43:25.871940"
+    }
+  ],
+  "025b8a63-5d3c-4a77-bbb2-b9ff8108ae26": [
+    {
+      "message_id": "26de2bde-bb03-4900-ac45-d87f506c5332",
+      "session_id": "025b8a63-5d3c-4a77-bbb2-b9ff8108ae26",
+      "user_id": "user_1782306500288",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-24T18:49:26.570779"
+    },
+    {
+      "message_id": "6eaaae46-f9fd-4e43-8aec-80883d3ce9f0",
+      "session_id": "025b8a63-5d3c-4a77-bbb2-b9ff8108ae26",
+      "user_id": "user_1782306500288",
+      "role": "assistant",
+      "content": "Hello there! How can I help you today? \ud83d\ude0a",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-24T18:49:33.352275"
+    }
+  ],
+  "c876e355-1599-48cb-a6e4-1c69cefee364": [
+    {
+      "message_id": "8312e2a8-d71c-4572-b788-e93c807db3f0",
+      "session_id": "c876e355-1599-48cb-a6e4-1c69cefee364",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:03:21.879455"
+    },
+    {
+      "message_id": "c921d3bb-6f8a-43c5-83a3-61f7cc3ded91",
+      "session_id": "c876e355-1599-48cb-a6e4-1c69cefee364",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:03:26.801307"
+    },
+    {
+      "message_id": "018fc644-ea57-4891-83c5-1f8ceef2a85e",
+      "session_id": "c876e355-1599-48cb-a6e4-1c69cefee364",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "what is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:03:36.359374"
+    },
+    {
+      "message_id": "42614fe4-2683-4dc9-a0bf-1c8bb60a1ae5",
+      "session_id": "c876e355-1599-48cb-a6e4-1c69cefee364",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "**AI** stands for **Artificial Intelligence**. \n\nAt its simplest, AI is a field of computer science dedicated to creating systems capable of performing tasks that would typically require human intelligence. These tasks include things like learning, reasoning, problem-solving, understanding language, and recognizing patterns.\n\nHere is a breakdown of how it works, the different types, and how we use it today:\n\n---\n\n### 1. How does AI work?\nInstead of being programmed with a strict set of rules to follow (like traditional software), modern AI learns from **data**. \n* **Machine Learning (ML):** This is the most common method. You feed an AI system thousands of examples (like pictures of cats), and it learns to recognize the patterns itself.\n* **Deep Learning:** A subset of machine learning inspired by the human brain. It uses \"neural networks\" to process massive amounts of data, which is how technologies like self-driving cars and language translation work.\n\n### 2. The Two Main Types of AI\n* **Narrow AI (or Weak AI):** This is the AI we have today. It is designed to do **one specific task** very well. Examples include Siri, Google Search, facial recognition, or chess-playing computers. They do not have consciousness or general understanding.\n* **General AI (or Strong AI):** This is theoretical. It refers to a machine that has human-level intelligence across *all* domains\u2014it could learn, adapt, and think just like a human. This does not exist yet and is mostly seen in sci-fi.\n\n### 3. Everyday Examples of AI\nYou probably use AI every day without realizing it:\n* **Recommendation Systems:** Netflix suggesting a movie, or Spotify creating a playlist for you.\n* **Generative AI:** Tools like ChatGPT (which powers me!), Midjourney (for making images), or Copilot (for writing code).\n* **Smart Assistants:** Apple's Siri, Amazon's Alexa, or Google Assistant.\n* **Navigation:** Google Maps predicting traffic and finding the fastest route.\n* **Spam Filters:** Your email automatically sorting junk mail.\n\n### Why is AI such a big deal right now?\nIn recent years, computer chips have become much faster, and we now have access to massive amounts of digital data. This has allowed AI to leap from a theoretical science to a tool that is actively transforming medicine, finance, education, and art.\n\nAre you interested in a specific aspect of AI, like how it is used in a certain industry, or how tools like ChatGPT work?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:03:43.498030"
+    }
+  ],
+  "36a64ca8-596c-42a3-90e7-3ed50fdabf14": [
+    {
+      "message_id": "3472f610-b6d5-4e1d-8478-4096d9d762ad",
+      "session_id": "36a64ca8-596c-42a3-90e7-3ed50fdabf14",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:07:24.236787"
+    },
+    {
+      "message_id": "70116e56-9138-4206-ba66-558a5cdd5af8",
+      "session_id": "36a64ca8-596c-42a3-90e7-3ed50fdabf14",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:07:26.358428"
+    }
+  ],
+  "5760b66d-5b5e-4eb1-b28d-6e73156a3db1": [
+    {
+      "message_id": "9695a27a-0b1f-43cc-a200-51a5a0e06a44",
+      "session_id": "5760b66d-5b5e-4eb1-b28d-6e73156a3db1",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:11:07.225029"
+    },
+    {
+      "message_id": "af6ce6a0-44c6-4eda-a5ab-d83045bd0563",
+      "session_id": "5760b66d-5b5e-4eb1-b28d-6e73156a3db1",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:11:08.616534"
+    }
+  ],
+  "63e8521d-78d8-4565-965e-eac8da2c47a9": [
+    {
+      "message_id": "54efc0fb-1fef-4a5e-9869-8b7fcc64e1ac",
+      "session_id": "63e8521d-78d8-4565-965e-eac8da2c47a9",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "What is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:11:23.171503"
+    },
+    {
+      "message_id": "e9cf9bc9-8d13-401e-a716-f62c170346e2",
+      "session_id": "63e8521d-78d8-4565-965e-eac8da2c47a9",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "**Artificial Intelligence (AI)** is a branch of computer science dedicated to creating systems capable of performing tasks that would typically require human intelligence. These tasks include learning, reasoning, problem-solving, understanding natural language, and perceiving the environment.\n\nAt its core, AI is about training computers to **think and learn** rather than just following a rigid set of pre-written instructions.\n\nHere is a breakdown of how AI works, its different types, and how it is used today.\n\n---\n\n### 1. The Core Technologies of AI\nTo understand AI, it helps to understand its three main nesting layers:\n\n*   **Artificial Intelligence (The Umbrella):** The broad concept of machines acting smartly.\n*   **Machine Learning (ML):** A subset of AI. Instead of programming a computer with rules, you feed it vast amounts of data and let it \"learn\" the rules on its own. For example, show a computer 10,000 photos of cats, and it learns to identify a cat.\n*   **Deep Learning (DL):** A specialized subset of Machine Learning. It uses \"neural networks\" (structures inspired by the human brain) to solve highly complex problems, like translating languages in real-time or driving autonomous cars.\n\n---\n\n### 2. The Two Main Types of AI\nAI is generally categorized into two levels of capability:\n\n#### A. Narrow AI (Weak AI)\nThis is the AI we have today. It is designed and trained for a **specific task** and cannot do anything outside of that task.\n*   *Examples:* Apple's Siri, Google Translate, Netflix's recommendation engine, or chess-playing computers. Siri cannot drive your car, and a chess computer cannot write an email; they are \"narrow\" specialists.\n\n#### B. Artificial General AI (AGI or Strong AI)\nThis is a theoretical form of AI where a machine would possess **human-like intelligence**. It could learn, understand, and apply knowledge to solve *any* intellectual task that a human can.\n*   *Status:* **Does not exist yet.** It remains a subject of research and science fiction.\n\n---\n\n### 3. Everyday Examples of AI\nYou likely interact with AI dozens of times a day without realizing it:\n\n*   **Generative AI:** Tools like ChatGPT, Claude, and Midjourney that can generate original text, images, and code based on user prompts.\n*   **Smartphones:** Facial recognition (FaceID), predictive text, and voice assistants.\n*   **Streaming & Shopping:** Netflix, Spotify, and Amazon use AI to analyze your past behavior and recommend movies, music, and products.\n*   **Navigation:** Google Maps and Apple Maps use AI to analyze traffic data in real-time and predict your arrival time.\n*   **Finance:** Banks use AI to detect fraudulent credit card transactions in milliseconds.\n*   **Healthcare:** AI algorithms help doctors detect diseases (like cancer) from X-rays and MRIs with high accuracy.\n\n---\n\n### 4. Why is AI so popular right now?\nAI has existed as a concept since the 1950s, but it has exploded recently due to three factors:\n1.  **Massive Data:** The internet has created mountains of data (text, images, video) which AI needs to learn.\n2.  **Powerful Computer Chips:** Modern microprocessors (specifically GPUs) can process billions of calculations per second, making it possible to train massive AI models.\n3.  **Algorithmic Breakthroughs:** Researchers have developed better math models (like \"Transformers\") that allow AI to understand context and relationships in data much better than before.\n\n---\n\n### 5. Challenges and Ethical Concerns\nAs AI grows more powerful, it brings significant challenges:\n*   **Bias:** AI learns from human data. If the data is biased, the AI will make biased decisions (e.g., in hiring or policing).\n*   **Job Displacement:** AI can automate tasks, leading to fears of job losses in creative, administrative, and technical fields.\n*   **Misinformation:** AI makes it easy to generate convincing fake news, \"deepfake\" videos, and plagiarized content.\n*   **Privacy:** AI requires massive amounts of data to work, raising concerns about how our personal data is collected and used.\n\n### Summary\nAI is not a single technology, but a collection of technologies that allow computers to mimic human intelligence. Currently, AI is a powerful tool designed to assist humans with specific tasks, but it is rapidly evolving and reshaping how we live and work.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:11:33.071786"
+    }
+  ],
+  "e5614ffa-5dbd-499d-975f-7157c2297cb6": [
+    {
+      "message_id": "a9b4500b-4655-4dca-9777-02df699936a8",
+      "session_id": "e5614ffa-5dbd-499d-975f-7157c2297cb6",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "What is Lnagchain",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:16:39.464716"
+    },
+    {
+      "message_id": "7c6fb0a0-3f9d-40d7-9cab-bddee494f332",
+      "session_id": "e5614ffa-5dbd-499d-975f-7157c2297cb6",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "That's an interesting question! Based on what you're asking about, I'd be happy to help explain. Could you provide more details about what you'd like to know?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:17:34.293602"
+    }
+  ],
+  "test_curl": [
+    {
+      "message_id": "a302bd00-cff6-4bce-93d6-a15b2ff9352c",
+      "session_id": "test_curl",
+      "user_id": "default_user",
+      "role": "user",
+      "content": "What is Lnagchain",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:24:43.431956"
+    },
+    {
+      "message_id": "9c36abad-a917-4165-93fa-7ae3f19c7a3c",
+      "session_id": "test_curl",
+      "user_id": "default_user",
+      "role": "assistant",
+      "content": "You likely mean **LangChain**. \n\n**LangChain** is an open-source framework designed to make it easier for developers to build applications powered by **Large Language Models (LLMs)** like OpenAI's GPT, Anthropic's Claude, or Google's Gemini.\n\nThink of an LLM as a very smart brain. On its own, it can't browse the web, access your private files, or connect to your database. **LangChain acts as the \"body\" or the bridge**, connecting that brain to the real world (databases, APIs, documents, and other software).\n\nHere is a breakdown of what LangChain does, why it is popular, and how it is used.\n\n---\n\n### Why is LangChain needed?\nWhile LLMs are powerful, they have limitations:\n1. **They lack memory:** They don't naturally remember past conversations (they are stateless).\n2. **They have a knowledge cutoff:** They don't know about events that happened after they were trained.\n3. **They can't access your data:** They don't know what is inside your company\u2019s private PDFs, SQL databases, or emails.\n\nLangChain solves these problems by providing tools to connect LLMs to external data sources and computation.\n\n---\n\n### Core Concepts of LangChain\n\nLangChain is built around several key modules:\n\n#### 1. Components & Models\nLangChain provides a standard interface to connect to different LLMs. With LangChain, you can easily swap out OpenAI\u2019s GPT-4 for an open-source model like Meta\u2019s Llama-3 with just a single line of code.\n\n#### 2. Prompt Templates\nInstead of hardcoding prompts, LangChain allows you to create templates that can dynamically insert user input, making prompts reusable and structured.\n\n#### 3. Chains\nThis is where the name \"Lang**Chain**\" comes from. A \"chain\" links multiple components together to perform a task. \n* *Example Chain:* Take user input $\\rightarrow$ Format it into a prompt $\\rightarrow$ Send it to the LLM $\\rightarrow$ Translate the LLM's response into Spanish $\\rightarrow$ Save the output to a database.\n\n#### 4. Retrieval (RAG - Retrieval-Augmented Generation)\nThis is one of LangChain's most popular uses. It allows you to load external data (like PDFs, Word docs, or websites), break it into small pieces, store it in a **Vector Database**, and query it. When a user asks a question, LangChain finds the relevant document and feeds it to the LLM so it can answer based on *your* data.\n\n#### 5. Agents\nAn Agent is an LLM that can make decisions. Instead of following a strict chain, you give the LLM a set of **Tools** (like a calculator, Google Search, or a Python code executor). The LLM decides *which* tool to use to answer your question.\n* *Example:* If you ask, \"What is the weather in Tokyo plus 5 degrees?\", the agent will use a Weather API tool first, get the temperature, use a Calculator tool to add 5, and then give you the final answer.\n\n#### 6. Memory\nThis allows LLMs to remember state. It attaches past messages to the current prompt so the LLM has context of the ongoing conversation (crucial for building chatbots).\n\n---\n\n### What can you build with LangChain?\n\n* **Q&A Chatbots over Private Documents:** A chatbot that can answer questions about your company\u2019s internal PDF manuals or HR policies.\n* **Database Assistants:** Tools that allow users to ask questions in plain English, which LangChain converts into SQL queries to fetch data from a database.\n* **Personal Assistants:** AI that can schedule meetings, draft emails, and search your calendar.\n* **Summarization Tools:** Programs that can ingest long YouTube videos, books, or academic papers and output bullet-point summaries.\n\n### Summary\nLangChain is available in both **Python** and **JavaScript/TypeScript**. It has become the industry-standard tool for developers who want to move beyond simple ChatGPT-style prompts and build complex, automated, and data-connected AI applications.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:25:03.706173"
+    }
+  ],
+  "5112c58e-225a-4f6f-9918-987955925084": [
+    {
+      "message_id": "2cfdd22d-8ac0-4669-ba29-d0c58eb635cc",
+      "session_id": "5112c58e-225a-4f6f-9918-987955925084",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "What is gandhi ji?",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:28:16.843630"
+    },
+    {
+      "message_id": "04b2d6da-0013-44bf-9da7-8cea581f7325",
+      "session_id": "5112c58e-225a-4f6f-9918-987955925084",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Mahatma Gandhi (Mohandas Karamchand Gandhi) was a prominent leader of the Indian independence movement against British colonial rule. Known for his philosophy of *Satyagraha* (truth-force) and non-violent resistance (*ahimsa*), he inspired civil rights and freedom movements across the world. \n\nHe is often referred to in India as \"Bapu\" (Father) or simply \"Gandhi ji,\" with the \"ji\" being an honorific suffix used in Indian languages to show respect.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:28:21.737944"
+    }
+  ],
+  "c69aa756-050d-469a-a942-4ff499f8b408": [
+    {
+      "message_id": "ea2a5f1a-e651-443c-b9dd-1eac3a14e3ff",
+      "session_id": "c69aa756-050d-469a-a942-4ff499f8b408",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "What is narendr modi/",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:28:59.864224"
+    },
+    {
+      "message_id": "5fb92044-cc98-43b8-abe6-0f94e13457f1",
+      "session_id": "c69aa756-050d-469a-a942-4ff499f8b408",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "Narendra Modi is the current Prime Minister of India, a position he has held since May 2014. He is a member of the Bharatiya Janata Party (BJP) and previously served as the Chief Minister of Gujarat from 2001 to 2014.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T17:29:03.542999"
+    }
+  ],
+  "fa98ef28-296e-4506-95f4-d1c313c2549a": [
+    {
+      "message_id": "e3091544-a92f-493d-ba33-e1f368c7f7d1",
+      "session_id": "fa98ef28-296e-4506-95f4-d1c313c2549a",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:56:39.330175"
+    },
+    {
+      "message_id": "dc04bebe-8f34-4a47-9801-df81ce5ae0d9",
+      "session_id": "fa98ef28-296e-4506-95f4-d1c313c2549a",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "What is capital of india?",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:56:59.083134"
+    }
+  ],
+  "2b1f3aaf-293b-4e7a-8224-0101f29fcbaf": [
+    {
+      "message_id": "74147785-e7ee-43f3-949a-de32de926bc2",
+      "session_id": "2b1f3aaf-293b-4e7a-8224-0101f29fcbaf",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "What is capital of india?",
+      "agent_name": null,
+      "created_at": "2026-06-26T17:59:52.796974"
+    }
+  ],
+  "session123": [
+    {
+      "message_id": "112f3f6e-cfc3-4fd6-9801-c95f7371c9e9",
+      "session_id": "session123",
+      "user_id": "default_user",
+      "role": "user",
+      "content": "What is capital of india?",
+      "agent_name": null,
+      "created_at": "2026-06-26T18:08:35.712352"
+    },
+    {
+      "message_id": "22bec4c7-17d0-4942-92f8-8492648b6014",
+      "session_id": "session123",
+      "user_id": "default_user",
+      "role": "assistant",
+      "content": "The capital of India is New Delhi.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T18:08:39.422752"
+    },
+    {
+      "message_id": "26977295-8cbc-4556-8bd3-aab6dc909d0a",
+      "session_id": "session123",
+      "user_id": "default_user",
+      "role": "user",
+      "content": "What is capital of india?",
+      "agent_name": null,
+      "created_at": "2026-06-26T18:09:11.625262"
+    },
+    {
+      "message_id": "f4c72263-5709-4fae-8cc8-79bcc0f90aca",
+      "session_id": "session123",
+      "user_id": "default_user",
+      "role": "assistant",
+      "content": "The capital of India is New Delhi.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T18:09:16.303888"
+    }
+  ],
+  "4a193e9c-5c41-49d3-9d34-312452909b48": [
+    {
+      "message_id": "9cb596fb-aafc-4c90-bbaa-f4e18b20064e",
+      "session_id": "4a193e9c-5c41-49d3-9d34-312452909b48",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "what is capital of india?",
+      "agent_name": null,
+      "created_at": "2026-06-26T18:12:09.007491"
+    },
+    {
+      "message_id": "79d650c7-69ac-4275-a5ab-c83d392f3692",
+      "session_id": "4a193e9c-5c41-49d3-9d34-312452909b48",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "The capital of India is New Delhi.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T18:12:10.816595"
+    },
+    {
+      "message_id": "7205d3be-1aa0-4373-9b35-ff0c5b6313c5",
+      "session_id": "4a193e9c-5c41-49d3-9d34-312452909b48",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "what is capital of gujarat?",
+      "agent_name": null,
+      "created_at": "2026-06-26T18:12:50.400301"
+    },
+    {
+      "message_id": "ca17921d-e8f3-4c3a-8c12-61da349bca1f",
+      "session_id": "4a193e9c-5c41-49d3-9d34-312452909b48",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "The capital of Gujarat is Gandhinagar.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T18:12:51.956128"
+    },
+    {
+      "message_id": "cd98333e-7d06-4fc4-b6f7-8d1dc9b834d5",
+      "session_id": "4a193e9c-5c41-49d3-9d34-312452909b48",
+      "user_id": "user_1782306705875",
+      "role": "user",
+      "content": "what is smart city in gujarat/",
+      "agent_name": null,
+      "created_at": "2026-06-26T18:13:07.894417"
+    },
+    {
+      "message_id": "0d624e43-8534-48c4-a36c-19efcc543f99",
+      "session_id": "4a193e9c-5c41-49d3-9d34-312452909b48",
+      "user_id": "user_1782306705875",
+      "role": "assistant",
+      "content": "The Smart Cities Mission is an initiative by the Government of India to develop cities that provide core infrastructure and a decent quality of life to their citizens. Under this mission, there are several cities in Gujarat that have been selected.\n\nThe cities in Gujarat that are part of the Smart Cities Mission include:\n\n*   **Ahmedabad**\n*   **Surat**\n*   **Vadodara**\n*   **Rajkot**\n*   **Gandhinagar**\n*   **Dahod**",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-26T18:13:29.533414"
+    }
+  ],
+  "4db632f7-5a9b-428e-b914-55fa762f46b4": [
+    {
+      "message_id": "aba77911-8ac7-4427-8739-304ce9bd3b0a",
+      "session_id": "4db632f7-5a9b-428e-b914-55fa762f46b4",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:09:12.182304"
+    },
+    {
+      "message_id": "3a0571bd-ea1f-45d1-a18a-8a8386533fa1",
+      "session_id": "4db632f7-5a9b-428e-b914-55fa762f46b4",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:09:13.679238"
+    },
+    {
+      "message_id": "a0ae4f65-b72e-4034-b761-ba2da29c41b8",
+      "session_id": "4db632f7-5a9b-428e-b914-55fa762f46b4",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "What is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:09:23.746768"
+    },
+    {
+      "message_id": "32c900e9-3e80-411a-aa3c-56a15363218e",
+      "session_id": "4db632f7-5a9b-428e-b914-55fa762f46b4",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Artificial Intelligence (AI) is a field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include things like learning (acquiring information and rules for using it), reasoning (using rules to reach approximate or definite conclusions), problem-solving, perception, and language understanding.\n\nIn simpler terms, AI involves programming computers to \"think,\" adapt, and make decisions based on data.\n\nHere are a few key ways to categorize AI:\n\n### 1. Narrow AI (Weak AI)\nThis is the most common form of AI today. It is designed to perform a specific, focused task. Examples include:\n*   **Virtual Assistants:** Siri, Alexa, and Google Assistant.\n*   **Recommendation Systems:** The algorithms that suggest movies on Netflix or products on Amazon.\n*   **Image Recognition:** Technology that identifies faces in photos or detects objects in self-driving car cameras.\n\n### 2. General AI (Strong AI)\nThis is a theoretical form of AI where a machine would possess the ability to understand, learn, and apply knowledge across a wide variety of tasks, essentially mirroring human cognitive capabilities. This level of AI does not currently exist.\n\n### How it works:\n*   **Machine Learning (ML):** A subset of AI where computers use large amounts of data to \"learn\" patterns and make predictions or decisions without being explicitly programmed for every specific scenario.\n*   **Deep Learning:** A more advanced type of machine learning inspired by the structure of the human brain (using \"neural networks\"), which is what powers modern breakthroughs like ChatGPT and sophisticated image generation tools.\n*   **Generative AI:** A specific type of AI (like the technology powering this chat) that can create new content, such as text, images, music, or code, based on the patterns it has learned from training data.\n\nIn summary, AI is essentially the science of making machines \"smart\" so they can assist with complex tasks, analyze vast amounts of data, and automate processes that previously required human intervention.\n\n***\n\n*For more in-depth definitions, you can refer to these resources:*\n*   [IBM: What is Artificial Intelligence?](https://www.ibm.com/topics/artificial-intelligence)\n*   [Built In: What is Artificial Intelligence?](https://builtin.com/artificial-intelligence)",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:09:27.005904"
+    }
+  ],
+  "43392b9a-3809-4e00-b243-7f31a9eeb314": [
+    {
+      "message_id": "da452176-1581-4a50-9259-9d0cce2432ae",
+      "session_id": "43392b9a-3809-4e00-b243-7f31a9eeb314",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:27:56.955955"
+    },
+    {
+      "message_id": "d05c5b5c-eb92-4537-b468-e5ff2fdbdb49",
+      "session_id": "43392b9a-3809-4e00-b243-7f31a9eeb314",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:27:57.921266"
+    }
+  ],
+  "1352eacf-b191-4a68-808c-f1e24d352c1e": [
+    {
+      "message_id": "0a8a4496-68dc-4261-a289-bfd5f8af491b",
+      "session_id": "1352eacf-b191-4a68-808c-f1e24d352c1e",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:28:11.733630"
+    },
+    {
+      "message_id": "83678bf9-3f4b-48d5-ad37-513ef2f0583d",
+      "session_id": "1352eacf-b191-4a68-808c-f1e24d352c1e",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:28:12.534529"
+    }
+  ],
+  "10f5efd5-95f9-4440-b0a3-146454f895f7": [
+    {
+      "message_id": "2f483411-1b70-497b-b1cb-81929aed75ac",
+      "session_id": "10f5efd5-95f9-4440-b0a3-146454f895f7",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "What is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:28:20.206985"
+    },
+    {
+      "message_id": "bb0b2f7d-d2c3-4251-a302-174a7e726081",
+      "session_id": "10f5efd5-95f9-4440-b0a3-146454f895f7",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Artificial Intelligence (AI) is a branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include things like learning from data, reasoning, problem-solving, understanding natural language, recognizing patterns, and making decisions.\n\nAt its core, AI works by using algorithms\u2014sets of rules or instructions\u2014and vast amounts of data to identify patterns and make predictions or generate outputs. \n\nHere are a few common ways AI is categorized:\n\n*   **Narrow AI (Weak AI):** This is the type of AI we interact with today. It is designed to perform a specific task or a limited range of tasks, such as voice assistants (like Siri or Alexa), recommendation systems (like those on Netflix or YouTube), image recognition, or language translation.\n*   **Generative AI:** A subset of AI (like the one you are talking to now) that focuses on creating new content, such as text, images, music, or code, based on the patterns it learned during its training.\n*   **General AI (AGI - Artificial General Intelligence):** This is a theoretical form of AI that would possess the ability to understand, learn, and apply knowledge across any intellectual task that a human can do. AGI does not currently exist.\n\nEssentially, AI acts as a tool that mimics cognitive functions, helping process information much faster and often more accurately than a human could for specific, data-heavy tasks.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:28:22.174196"
+    }
+  ],
+  "4f53aa3e-7f7c-43b9-bd4c-c5d3176b7e3c": [
+    {
+      "message_id": "54d24212-5db3-48bb-9536-290d7cba88b1",
+      "session_id": "4f53aa3e-7f7c-43b9-bd4c-c5d3176b7e3c",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "What is DATA Structure",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:34:15.966146"
+    },
+    {
+      "message_id": "b33b8fc6-4eef-4775-ac20-d8b5e48d0092",
+      "session_id": "4f53aa3e-7f7c-43b9-bd4c-c5d3176b7e3c",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "In computer science, a **data structure** is a specialized format for organizing, processing, retrieving, and storing data. Think of it as a way to arrange data in a computer so that it can be accessed and updated efficiently.\n\nDifferent data structures are suited to different kinds of applications, and some are highly specialized to specific tasks.\n\n### Why are they important?\nData structures provide a way to manage huge amounts of data efficiently, such as large databases and internet indexing services. They allow you to:\n*   **Store data** effectively.\n*   **Retrieve data** quickly.\n*   **Manipulate** or modify data based on your needs.\n\n### Common Examples\n*   **Arrays:** A collection of items stored at contiguous memory locations. (e.g., a list of numbers).\n*   **Linked Lists:** A sequence of nodes where each node contains data and a pointer to the next node.\n*   **Stacks:** A \"Last-In, First-Out\" (LIFO) structure (like a stack of plates).\n*   **Queues:** A \"First-In, First-Out\" (FIFO) structure (like people waiting in line).\n*   **Trees:** A hierarchical structure (like the folders on your computer).\n*   **Graphs:** A collection of nodes connected by edges (like a social network or GPS map).\n*   **Hash Tables:** A structure that maps keys to values for very fast data retrieval.\n\n---\n**Would you like me to delegate this to a specialized agent?**\n*   If you need a **deep dive or technical research** on a specific data structure, I can send this to the **research_agent**.\n*   If you want to see **how to implement a data structure in a specific programming language** (like Python, Java, or C++), I can send this to the **coding_agent**.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:34:18.179481"
+    }
+  ],
+  "5527a4e4-fe7b-4afd-8d5b-4475e7bf8eae": [
+    {
+      "message_id": "8b660337-57b6-47a1-8d7b-2aa8ddffa432",
+      "session_id": "5527a4e4-fe7b-4afd-8d5b-4475e7bf8eae",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:47:43.287191"
+    },
+    {
+      "message_id": "9c78405b-c813-491a-937b-193014ea590d",
+      "session_id": "5527a4e4-fe7b-4afd-8d5b-4475e7bf8eae",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:47:44.009233"
+    }
+  ],
+  "8c30d7e6-c0ff-49a5-9aed-c7288f262196": [
+    {
+      "message_id": "c0b7e31e-b5ed-4cd8-8d4e-2b30926a8539",
+      "session_id": "8c30d7e6-c0ff-49a5-9aed-c7288f262196",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "What is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:47:55.278414"
+    },
+    {
+      "message_id": "bbff2ca1-6ad5-4337-85e3-355088dcc50d",
+      "session_id": "8c30d7e6-c0ff-49a5-9aed-c7288f262196",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Artificial Intelligence (AI) is a field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include things like learning from experience, recognizing patterns, understanding natural language, solving problems, and making decisions.\n\nAt its core, AI involves teaching computers how to \"think\" or process information in ways that mimic human cognitive functions. It is often categorized into a few different types:\n\n*   **Narrow AI (Weak AI):** This is the most common form of AI today. It is designed to perform a specific task or a narrow set of tasks, such as voice assistants (like Siri or Alexa), image recognition software, or recommendation engines (like those on Netflix or YouTube).\n*   **General AI (Strong AI):** This is a theoretical form of AI that would possess the ability to understand, learn, and apply knowledge across a wide variety of tasks at a level equal to or beyond human intelligence. We have not yet achieved this.\n\nAI relies heavily on **Machine Learning**, where algorithms are trained on vast amounts of data to improve their performance over time without being explicitly programmed for every specific scenario. Within machine learning, **Deep Learning**\u2014which uses multi-layered artificial neural networks\u2014is what powers much of the modern advancement in things like image generation, complex language processing (like the model you are talking to now), and autonomous driving.\n\nIn short, AI is a tool that allows machines to process data, identify trends, and interact with the world in intelligent ways, helping humans handle complexity and automation more efficiently.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:47:57.334797"
+    }
+  ],
+  "fbe2f946-e51a-4f26-ab82-2cc212eb237d": [
+    {
+      "message_id": "49ef1b75-abd0-40e8-bc67-fbeb3dd875f5",
+      "session_id": "fbe2f946-e51a-4f26-ab82-2cc212eb237d",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:53:48.472608"
+    },
+    {
+      "message_id": "f50540d8-1da9-4126-81ff-9d9091e4c08c",
+      "session_id": "fbe2f946-e51a-4f26-ab82-2cc212eb237d",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:53:49.470719"
+    }
+  ],
+  "867dca95-b3ba-4358-a521-1c7395fa3f84": [
+    {
+      "message_id": "f3e343eb-fcae-4b62-9430-20c88419a07c",
+      "session_id": "867dca95-b3ba-4358-a521-1c7395fa3f84",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "What is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:57:02.301453"
+    },
+    {
+      "message_id": "f2192132-111e-4582-8ca8-1d78c929416f",
+      "session_id": "867dca95-b3ba-4358-a521-1c7395fa3f84",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Artificial Intelligence (AI) refers to the simulation of human intelligence by computer systems. These systems are designed to perform tasks that typically require human cognition, such as learning, reasoning, problem-solving, perception, and language understanding.\n\nAt its core, AI involves creating algorithms (sets of rules or instructions) that allow machines to process vast amounts of data, recognize patterns, and make decisions or predictions based on that information.\n\nThere are several ways to categorize AI:\n\n*   **Narrow AI (or Weak AI):** This is the AI we interact with today. It is designed and trained for a specific task, such as voice assistants (Siri, Alexa), recommendation engines (on Netflix or YouTube), or image recognition software. It performs well within its specialized domain but lacks general understanding.\n*   **General AI (or Strong AI):** This is a theoretical form of AI that would possess the ability to understand, learn, and apply knowledge across any intellectual task that a human can perform. This level of AI does not currently exist.\n\nKey subsets of AI include:\n*   **Machine Learning (ML):** A field where computers learn from data without being explicitly programmed for every specific outcome.\n*   **Deep Learning:** A more advanced type of machine learning inspired by the structure of the human brain (using neural networks) to process complex data like images, audio, and text.\n*   **Generative AI:** A type of AI that can create new content, such as text, images, or code, based on the patterns it has learned from training data (e.g., ChatGPT).\n\nIf you are interested in a deeper analysis or specific research on the current state of AI technology, I can refer you to my research agent. Would you like me to do that?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:57:04.433245"
+    }
+  ],
+  "b7b064f1-dd4c-46fa-b870-e13ec8e75aee": [
+    {
+      "message_id": "0e9bf229-0ef3-498a-a092-9605cc79050f",
+      "session_id": "b7b064f1-dd4c-46fa-b870-e13ec8e75aee",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T15:57:13.547060"
+    },
+    {
+      "message_id": "83aaaf31-98b9-41dc-aaae-a03c3fec0c0b",
+      "session_id": "b7b064f1-dd4c-46fa-b870-e13ec8e75aee",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T15:57:14.237371"
+    },
+    {
+      "message_id": "04cfdfa6-2c58-43d1-9668-e87448c2aa34",
+      "session_id": "b7b064f1-dd4c-46fa-b870-e13ec8e75aee",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is ai?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:12:24.116998"
+    },
+    {
+      "message_id": "307a4b91-41fe-46f6-ac39-094a70bc6e35",
+      "session_id": "b7b064f1-dd4c-46fa-b870-e13ec8e75aee",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Artificial Intelligence (AI) refers to the simulation of human intelligence processes by computer systems. These processes include learning (the acquisition of information and rules for using it), reasoning (using rules to reach approximate or definite conclusions), and self-correction.\n\nAt its core, AI aims to create systems capable of performing tasks that typically require human intelligence, such as:\n\n*   **Pattern Recognition:** Identifying trends in data, such as images, voice, or text.\n*   **Natural Language Processing (NLP):** Understanding, interpreting, and generating human language.\n*   **Problem Solving:** Making decisions or finding solutions to complex tasks, such as playing games, navigating routes, or medical diagnostics.\n*   **Prediction:** Using historical data to forecast future outcomes.\n\nAI is generally categorized into two types:\n1.  **Narrow AI (or Weak AI):** Systems designed and trained for a specific task (e.g., Siri, recommendation engines like Netflix, or chess-playing programs). This is the only type of AI currently in existence.\n2.  **General AI (or Strong AI):** A theoretical form of AI where a machine would have the intelligence to perform any intellectual task a human can do. It would possess consciousness and the ability to apply knowledge across different domains.\n\nModern advancements in AI are largely driven by **Machine Learning**\u2014a subset of AI where computers use algorithms to learn from data rather than being explicitly programmed for every scenario\u2014and **Deep Learning**, which uses complex neural networks inspired by the structure of the human brain.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:12:53.150825"
+    }
+  ],
+  "f44d5924-722a-4da1-ac1f-226c1ecfea85": [
+    {
+      "message_id": "977d7772-7527-4835-abbf-4981df18d9d4",
+      "session_id": "f44d5924-722a-4da1-ac1f-226c1ecfea85",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:00:09.908513"
+    },
+    {
+      "message_id": "a79706d0-99b7-4995-b59d-7fbfe908ee62",
+      "session_id": "f44d5924-722a-4da1-ac1f-226c1ecfea85",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:00:10.989723"
+    },
+    {
+      "message_id": "82bd48da-6212-4b3c-8bf5-4cc3d84ab918",
+      "session_id": "f44d5924-722a-4da1-ac1f-226c1ecfea85",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is capital of gujarat?",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:10:20.945776"
+    },
+    {
+      "message_id": "263a2917-63e0-4551-a3aa-89128ed222a9",
+      "session_id": "f44d5924-722a-4da1-ac1f-226c1ecfea85",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The capital of Gujarat is Gandhinagar.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:10:23.909140"
+    }
+  ],
+  "c2d518e5-b20f-41fd-9230-74b183173e66": [
+    {
+      "message_id": "fd897a18-d4ad-449c-8829-aaadbfa74971",
+      "session_id": "c2d518e5-b20f-41fd-9230-74b183173e66",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What is AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:00:19.199187"
+    },
+    {
+      "message_id": "f6e32ab4-c0a5-4885-9a32-0febfdd16236",
+      "session_id": "c2d518e5-b20f-41fd-9230-74b183173e66",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I received your message: \"What is AI?\". I'm currently using a fallback response system because the AI is unavailable. Please check your GEMINI_API_KEY and API quota.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:00:22.336906"
+    }
+  ],
+  "44e1fa26-e9e5-44dc-8b3c-88c5161abd19": [
+    {
+      "message_id": "f9be27d0-7b67-48f8-8454-22fc267d93e6",
+      "session_id": "44e1fa26-e9e5-44dc-8b3c-88c5161abd19",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What is capital of india",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:10:01.189817"
+    },
+    {
+      "message_id": "e04e5ce7-359d-4e90-a738-d0df7d4be677",
+      "session_id": "44e1fa26-e9e5-44dc-8b3c-88c5161abd19",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The capital of India is New Delhi.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:10:02.086513"
+    }
+  ],
+  "820c0414-e28c-47be-bf49-32b7eaddc4e6": [
+    {
+      "message_id": "1d55981e-e45e-469d-9603-998353ca89be",
+      "session_id": "820c0414-e28c-47be-bf49-32b7eaddc4e6",
+      "user_id": "37f294a0-a272-41e5-a12c-aaf786cc168d",
+      "role": "user",
+      "content": "Hello, what is Python?",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:15:32.765254"
+    },
+    {
+      "message_id": "5d9382f7-b1c0-4cd8-86e6-4edf684d82b7",
+      "session_id": "820c0414-e28c-47be-bf49-32b7eaddc4e6",
+      "user_id": "37f294a0-a272-41e5-a12c-aaf786cc168d",
+      "role": "assistant",
+      "content": "Python is a programming language...",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:15:32.771593"
+    }
+  ],
+  "d76f08da-70ae-405a-b203-172697429951": [
+    {
+      "message_id": "2a8a3709-8731-4364-8855-c7a75848fd7e",
+      "session_id": "d76f08da-70ae-405a-b203-172697429951",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:24:22.532621"
+    },
+    {
+      "message_id": "a3af013e-fdce-4f2a-916b-c9c73b4a8cbb",
+      "session_id": "d76f08da-70ae-405a-b203-172697429951",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:24:23.342378"
+    },
+    {
+      "message_id": "a0302ab5-4c67-4db2-a6ec-9670a35d4e2f",
+      "session_id": "d76f08da-70ae-405a-b203-172697429951",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "why self attention",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:49:27.923132"
+    },
+    {
+      "message_id": "164fc9fd-146e-4867-976b-0f74b9500727",
+      "session_id": "d76f08da-70ae-405a-b203-172697429951",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "why self attention",
+      "agent_name": null,
+      "created_at": "2026-06-29T16:49:32.805183"
+    },
+    {
+      "message_id": "d30d32b7-9237-4ed7-8624-8def14e04dd3",
+      "session_id": "d76f08da-70ae-405a-b203-172697429951",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Self-attention is a mechanism in deep learning\u2014most famously the core component of the Transformer architecture\u2014that addresses several critical limitations of older sequence-modeling architectures like RNNs (Recurrent Neural Networks) and LSTMs (Long Short-Term Memory networks).\n\nHere is why self-attention has become the industry standard for processing sequential data:\n\n### 1. Parallelization (Efficiency)\n*   **The Problem:** RNNs process data sequentially (token by token). To calculate the state for word #10, you must first calculate the states for words #1 through #9. This makes training on large datasets incredibly slow and prevents the effective use of GPUs, which excel at parallel processing.\n*   **The Solution:** Self-attention processes the entire input sequence at once. By computing relationships between all words in a sentence simultaneously (using matrix multiplication), it enables massive parallelization, allowing models to be trained on vast amounts of data much faster.\n\n### 2. Capturing Long-Range Dependencies\n*   **The Problem:** RNNs struggle to remember information from the distant past. As information is passed through the \"hidden state\" chain, the signal from early tokens often fades or gets distorted (the \"vanishing gradient\" problem).\n*   **The Solution:** Self-attention creates a \"path of length 1\" between any two tokens in a sequence. Because every token can directly \"attend\" to every other token, regardless of their distance, the model can easily connect a word at the beginning of a document to a relevant word at the end.\n\n### 3. Contextual Understanding (Dynamic Representations)\n*   **The Problem:** Older models like Word2Vec assigned a single, static vector to a word. This failed to account for polysemy (words with multiple meanings). For example, \"bank\" has a different meaning in \"river bank\" vs. \"bank account.\"\n*   **The Solution:** Self-attention creates **contextualized embeddings**. The representation of a word is dynamically generated based on the other words in the specific sentence. The model looks at the surrounding words to decide how to represent the target word, allowing it to capture nuances, tone, and context-dependent meanings.\n\n### 4. Interpretability (Attention Maps)\n*   **The Benefit:** Self-attention produces \"attention weights\" that show exactly which words the model focused on to generate a specific output. By visualizing these weights, researchers can gain insights into what the model finds important, which provides a level of interpretability that is often missing from \"black box\" deep learning architectures.\n\n### Summary\nIn short, **self-attention is the mechanism that allows models to be fast (parallelizable), smart (context-aware), and capable of managing complex, long-range relationships.** It is the breakthrough that enabled the development of modern Large Language Models (LLMs) like GPT, Claude, and Gemini.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:49:32.853948"
+    },
+    {
+      "message_id": "0de13aa5-7171-4759-b1c6-56f5a7f529bb",
+      "session_id": "d76f08da-70ae-405a-b203-172697429951",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Self-attention is a mechanism in deep learning (specifically within the Transformer architecture) that allows a model to dynamically weigh the importance of different parts of the input data when processing a specific element.\n\nHere is why self-attention is considered a breakthrough:\n\n### 1. Capturing Long-Range Dependencies\nIn older architectures like RNNs (Recurrent Neural Networks) or LSTMs, information is processed sequentially. To connect the first word of a sentence to the last, the model must pass information through every word in between. This often leads to the \"vanishing gradient\" problem, where the model \"forgets\" early context.\n*   **The Self-Attention solution:** It calculates the relationship between every pair of words in a sequence simultaneously. No matter how far apart two words are, they are effectively \"one step away\" from each other, making it trivial to capture long-distance context.\n\n### 2. Parallelization\nRNNs are inherently sequential\u2014you cannot process the second word until you have finished processing the first. This makes training on large datasets very slow, as it cannot fully leverage the power of modern GPUs.\n*   **The Self-Attention solution:** Because self-attention calculates relationships across the entire sequence at once, the computation can be highly parallelized. This allows Transformers to be trained on massive datasets much faster than their predecessors.\n\n### 3. Contextual Awareness\nWords often have different meanings depending on their context (e.g., the word \"bank\" in \"river bank\" vs. \"bank account\"). \n*   **The Self-Attention solution:** By looking at every other word in the sequence simultaneously, the model creates a \"contextualized representation\" for each word. The model learns that \"bank\" is related to \"river\" or \"money\" based on the other words present in the sequence, resulting in much richer and more accurate linguistic understanding.\n\n### 4. Dynamic Flexibility\nTraditional models often use fixed-size windows to look at input.\n*   **The Self-Attention solution:** The attention mechanism is dynamic. For every word, the model generates an \"attention map\" that tells it exactly which other parts of the input it should pay attention to. This allows the model to be flexible and focus on relevant information regardless of where it appears in the sequence.\n\n### Summary Analogy\n*   **RNNs/LSTMs** are like reading a book by strictly moving your eyes from left to right, one word at a time, trying to remember the plot without ever looking back.\n*   **Self-Attention** is like being able to instantly see the entire page at once, drawing lines between related concepts no matter where they sit on the page, allowing you to instantly understand the structure and meaning of the entire text.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T16:49:35.641782"
+    }
+  ],
+  "f7a0d2f5-f842-4e32-9b8e-c6652271c1c4": [
+    {
+      "message_id": "e67ac3a8-836a-4ec2-af47-6275e65c5f9f",
+      "session_id": "f7a0d2f5-f842-4e32-9b8e-c6652271c1c4",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:10:29.894288"
+    },
+    {
+      "message_id": "bfed2dc0-19f6-498c-9453-4ec888a7262f",
+      "session_id": "f7a0d2f5-f842-4e32-9b8e-c6652271c1c4",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:10:30.603443"
+    }
+  ],
+  "3bfbbd16-075e-4a2c-918c-84ed5f49fe6e": [
+    {
+      "message_id": "68b25e53-239a-4a4c-b0b2-31f4f96f5c09",
+      "session_id": "3bfbbd16-075e-4a2c-918c-84ed5f49fe6e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:12:17.454721"
+    },
+    {
+      "message_id": "7727c56b-25db-4f4e-a3fa-8671b15f2c2e",
+      "session_id": "3bfbbd16-075e-4a2c-918c-84ed5f49fe6e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:12:18.149842"
+    }
+  ],
+  "749e1d2d-ede2-4613-b8b7-a5e19690ba03": [
+    {
+      "message_id": "773faebd-2032-44a3-a89d-7f6140814e1d",
+      "session_id": "749e1d2d-ede2-4613-b8b7-a5e19690ba03",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is today news of AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:12:51.858144"
+    },
+    {
+      "message_id": "afa848d3-546e-45ad-a785-e2535593b06f",
+      "session_id": "749e1d2d-ede2-4613-b8b7-a5e19690ba03",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I am currently unable to retrieve the latest news headlines regarding AI through my search tools. Please try asking again later, or if you have a specific topic or AI company you are interested in, I can try a more targeted search.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:12:57.744876"
+    },
+    {
+      "message_id": "3b1d4ac0-6851-4f17-9927-cf525b79b785",
+      "session_id": "749e1d2d-ede2-4613-b8b7-a5e19690ba03",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is today news of AI?",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:20:35.709367"
+    },
+    {
+      "message_id": "11f30b8a-3236-4582-a12a-f48835fed382",
+      "session_id": "749e1d2d-ede2-4613-b8b7-a5e19690ba03",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "As of June 29, 2026, here are some of the latest developments and highlights in the AI landscape:\n\n*   **Cybersecurity Focus:** The *Cobalt State of Pentesting Report 2026* was recently released, highlighting the evolving role of AI in cybersecurity, including both automated defense mechanisms and the challenges posed by AI-driven threats. For more details, you can view the digest here: [Daily Digest on AI and Emerging Technologies (29 June 2026)](https://pam.int/daily-digest-on-ai-and-emerging-technologies-29-june-2026/).\n*   **Weekly Roundup:** Comprehensive summaries covering the week of June 21\u201328, 2026, are available via industry monitors like NoloWiz, which track the rapid pace of developments across the sector: [Top AI News of the Week (June 21-28, 2026)](https://nolowiz.com/top-ai-news-of-the-week-june-21-28-2026/).\n*   **Monthly Context:** Earlier in June 2026, the industry saw significant discussions surrounding \"Siri AI\" revolutions, updates to Gemini Live, and new capabilities from Claude, which have continued to shape the conversation throughout the month: [15 Explosive AI Updates June 2026](https://imfounder.com/science-tech/ai/ai-updates-june-2026-siri-gemini-claude/).\n\nFor broader trends and updates from the month of June, you can also refer to [ToolsCompare.ai](https://toolscompare.ai/news/june-2026) and [AIApps.com](https://www.aiapps.com/blog/ai-news-breakthroughs-launches-trends-must-read/).",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:20:39.708479"
+    }
+  ],
+  "698c2a62-5b55-445e-8b25-8da16cfeb409": [
+    {
+      "message_id": "6c1b2042-b60e-4d07-b28a-d2decc2bea23",
+      "session_id": "698c2a62-5b55-445e-8b25-8da16cfeb409",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is today news?",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:20:16.914378"
+    },
+    {
+      "message_id": "86a8d514-0b50-4972-a823-7f7da68e0f49",
+      "session_id": "698c2a62-5b55-445e-8b25-8da16cfeb409",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "As of June 29, 2026, there are no specific major global headlines being reported in real-time search results. \n\nIf you are looking for information on a particular topic, please let me know, and I can perform a more targeted search for you!",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:20:21.019155"
+    }
+  ],
+  "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3": [
+    {
+      "message_id": "ba7c8e03-b932-4096-8324-0cdf1f4438d4",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "write c program to swip to elements",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:21:15.485944"
+    },
+    {
+      "message_id": "f62bbea4-9808-413e-9206-f21249ae4f10",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "To swap two elements in C, the most common approach is to use a temporary variable. Below is a simple program demonstrating how to swap two integer values.\n\n### C Program to Swap Two Integers\n\n```c\n#include <stdio.h>\n\nint main() {\n    int a = 5;\n    int b = 10;\n\n    printf(\"Before swap: a = %d, b = %d\\n\", a, b);\n\n    // Swapping logic using a temporary variable\n    int temp = a;\n    a = b;\n    b = temp;\n\n    printf(\"After swap:  a = %d, b = %d\\n\", a, b);\n\n    return 0;\n}\n```\n\n### Explanation:\n1.  **`temp = a;`**: We store the value of `a` in a temporary variable so it isn't lost when we overwrite `a`.\n2.  **`a = b;`**: We assign the value of `b` to `a`.\n3.  **`b = temp;`**: We assign the stored original value of `a` (now in `temp`) to `b`.\n\n---\n\n### Alternative: Swapping using Pointers (Function)\nIn real-world applications, you usually swap values inside a function. Because C uses \"pass-by-value,\" you must use **pointers** to modify the original variables:\n\n```c\n#include <stdio.h>\n\nvoid swap(int *x, int *y) {\n    int temp = *x;\n    *x = *y;\n    *y = temp;\n}\n\nint main() {\n    int a = 5, b = 10;\n    swap(&a, &b); // Pass the addresses of the variables\n    printf(\"After swap: a = %d, b = %d\\n\", a, b);\n    return 0;\n}\n```",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:21:21.087141"
+    },
+    {
+      "message_id": "fbbf2fec-8071-4013-ba63-dbb5fef9281c",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "\ud83c\udf99\ufe0f [Audio Message]",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:22:01.471245"
+    },
+    {
+      "message_id": "6b13733c-648c-4334-bf2d-550d47416369",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "It seems you haven't asked a question. How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:22:01.479731"
+    },
+    {
+      "message_id": "0805743b-9905-40c9-9110-cf228840e035",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "\ud83c\udf99\ufe0f [Audio Message]",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:34:39.596306"
+    },
+    {
+      "message_id": "69d3272d-f19c-4ebc-83af-6ff8e3939b14",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I hear you. How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:34:39.604427"
+    },
+    {
+      "message_id": "d8b28184-c76e-4738-aa87-77dbc422a898",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "\ud83c\udf99\ufe0f [Audio Message]",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:38:08.028853"
+    },
+    {
+      "message_id": "3301f1bf-ad2b-496f-bba4-acd26d3a151d",
+      "session_id": "422325c3-4c1c-4c6d-a87d-2c9dc73c85b3",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello. How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:38:08.037355"
+    }
+  ],
+  "8e303890-e9fc-4ec2-b537-24b28723d539": [
+    {
+      "message_id": "8fe81896-d5e4-4392-875f-970982e5605e",
+      "session_id": "8e303890-e9fc-4ec2-b537-24b28723d539",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T17:43:16.149917"
+    },
+    {
+      "message_id": "b34cf877-de09-4d99-b4e3-0b2e4bb1e4d5",
+      "session_id": "8e303890-e9fc-4ec2-b537-24b28723d539",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T17:43:16.916789"
+    }
+  ],
+  "421977dc-9930-4bd2-84fd-20ec5faa433a": [
+    {
+      "message_id": "0fc9df20-4e70-4975-8f37-e895b1a25bf2",
+      "session_id": "421977dc-9930-4bd2-84fd-20ec5faa433a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T18:07:24.619161"
+    },
+    {
+      "message_id": "c5a7550c-fd88-493f-8118-3e049998da79",
+      "session_id": "421977dc-9930-4bd2-84fd-20ec5faa433a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T18:07:25.431875"
+    }
+  ],
+  "461b49ce-e1fa-4cdd-a6f7-71a036154310": [
+    {
+      "message_id": "ad4a67c5-fb88-4645-9abf-aed82696e046",
+      "session_id": "461b49ce-e1fa-4cdd-a6f7-71a036154310",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is capital of us?",
+      "agent_name": null,
+      "created_at": "2026-06-29T18:08:03.492092"
+    },
+    {
+      "message_id": "a5f42ca0-0266-44eb-8c8b-1f122587e222",
+      "session_id": "461b49ce-e1fa-4cdd-a6f7-71a036154310",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The capital of the United States is Washington, D.C.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T18:08:04.239355"
+    }
+  ],
+  "73f6b5c6-b46d-4693-84f5-0355548187ba": [
+    {
+      "message_id": "19964be3-d2f3-46b4-b556-279cca3d81ee",
+      "session_id": "73f6b5c6-b46d-4693-84f5-0355548187ba",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T19:00:27.844092"
+    },
+    {
+      "message_id": "0d3f28b0-a0bd-4097-abab-b5bb819137da",
+      "session_id": "73f6b5c6-b46d-4693-84f5-0355548187ba",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T19:00:29.741099"
+    }
+  ],
+  "9a19587c-3709-4bb0-af74-2dcd0c24c162": [
+    {
+      "message_id": "fd24639c-c158-4f8f-ba17-87f5a7efa26b",
+      "session_id": "9a19587c-3709-4bb0-af74-2dcd0c24c162",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T19:00:37.236889"
+    },
+    {
+      "message_id": "ec49636d-b1ec-4137-8102-6bde30ff844e",
+      "session_id": "9a19587c-3709-4bb0-af74-2dcd0c24c162",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T19:00:38.310367"
+    },
+    {
+      "message_id": "98d03fb2-621c-40ac-af69-3a62718521bb",
+      "session_id": "9a19587c-3709-4bb0-af74-2dcd0c24c162",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T19:00:44.345584"
+    },
+    {
+      "message_id": "26e32cdc-87f8-48b6-9c8f-9dd78cf68934",
+      "session_id": "9a19587c-3709-4bb0-af74-2dcd0c24c162",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello again! How can I assist you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T19:00:45.306541"
+    }
+  ],
+  "85736efe-d4a6-4d3f-9fab-933199874155": [
+    {
+      "message_id": "5eabf02b-c75c-47c1-8358-b46c9fd2b474",
+      "session_id": "85736efe-d4a6-4d3f-9fab-933199874155",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-06-29T19:14:54.064964"
+    },
+    {
+      "message_id": "16322ab0-96f5-4532-a941-abc890442652",
+      "session_id": "85736efe-d4a6-4d3f-9fab-933199874155",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T19:14:55.474546"
+    }
+  ],
+  "6f0e8599-50fb-44b6-aeec-de3a8d810e1a": [
+    {
+      "message_id": "7f43a7ba-269b-4bb7-bd37-139bb57ff90d",
+      "session_id": "6f0e8599-50fb-44b6-aeec-de3a8d810e1a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What is type of computer",
+      "agent_name": null,
+      "created_at": "2026-06-29T19:15:26.973287"
+    },
+    {
+      "message_id": "a8bcc078-2158-4a9d-8d8e-0abc8f9c0a99",
+      "session_id": "6f0e8599-50fb-44b6-aeec-de3a8d810e1a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The term \"computer\" refers to any electronic device capable of accepting data, processing it according to a set of instructions (a program), and producing an output (information). Because they vary widely in size, power, and purpose, computers are generally categorized into the following types:\n\n### 1. Supercomputers\nThese are the most powerful and expensive computers available. They are designed to perform trillions of calculations per second.\n*   **Used for:** Weather forecasting, nuclear research, complex scientific simulations, and large-scale data analysis.\n\n### 2. Mainframe Computers\nThese are large, powerful systems designed to handle thousands of users or processes simultaneously. They prioritize high reliability, security, and the ability to process massive volumes of data at once.\n*   **Used for:** Large organizations like banks, insurance companies, and government agencies for transaction processing and database management.\n\n### 3. Personal Computers (PCs)\nThis is the most common category, designed for individual use. They include:\n*   **Desktop Computers:** Fixed systems intended for use at a desk.\n*   **Laptops (Notebooks):** Portable computers with an integrated screen and keyboard.\n\n### 4. Workstations\nThese look similar to standard desktop computers but are much more powerful. They feature high-end processors, large amounts of RAM, and professional-grade graphics cards.\n*   **Used for:** Engineering (CAD), 3D animation, video editing, and complex data modeling.\n\n### 5. Servers\nServers are computers dedicated to providing services, data, or resources to other computers (clients) over a network. They are typically optimized for uptime and stability.\n*   **Used for:** Hosting websites, managing email systems, or storing files in a corporate network.\n\n### 6. Mobile Devices\nThese are handheld devices that function as miniature computers.\n*   **Examples:** Smartphones and tablets. While they are small, modern mobile devices have computing power that rivals older desktop computers.\n\n### 7. Embedded Computers\nThese are specialized computer systems built into larger machines or devices to perform specific functions. They are usually not intended to be \"programmed\" by the user.\n*   **Used for:** Washing machines, automotive engine control units (ECUs), smart appliances, and medical devices.\n\n***\n\n**How would you like to explore this further?** If you are looking for information on specific hardware specifications or technical architecture, I can provide those details.",
+      "agent_name": "main_agent",
+      "created_at": "2026-06-29T19:15:30.377676"
+    }
+  ],
+  "05f0024a-98ff-4fed-a6a3-e30dfe192e14": [
+    {
+      "message_id": "beb43d9e-4c98-4bf8-928b-ebc801d0b59a",
+      "session_id": "05f0024a-98ff-4fed-a6a3-e30dfe192e14",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is different between soft skill and hard skill?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:44:25.681017"
+    },
+    {
+      "message_id": "adaedbc6-53b8-44e7-9da0-3bd7b40ac6fd",
+      "session_id": "05f0024a-98ff-4fed-a6a3-e30dfe192e14",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The primary difference between soft skills and hard skills lies in how they are acquired and how they are applied in the workplace.\n\n### Hard Skills\nHard skills are **technical, teachable abilities** that can be defined, measured, and quantified. They are often specific to a particular job or industry and are typically acquired through formal education, training programs, or on-the-job experience.\n\n*   **Key Characteristics:** Tangible, observable, and easy to test or certify.\n*   **Examples:**\n    *   Programming in Python or Java.\n    *   Operating heavy machinery.\n    *   Data analysis and statistical modeling.\n    *   Fluency in a foreign language.\n    *   Accounting or bookkeeping.\n\n### Soft Skills\nSoft skills are **interpersonal, non-technical traits** that relate to how you work and interact with others. They are often described as \"people skills\" or \"social skills.\" Unlike hard skills, they are harder to measure and are often developed through life experiences and personal development rather than formal training.\n\n*   **Key Characteristics:** Intangible, subjective, and transferable across almost any job or industry.\n*   **Examples:**\n    *   Communication and active listening.\n    *   Leadership and management.\n    *   Problem-solving and critical thinking.\n    *   Adaptability and emotional intelligence.\n    *   Time management and teamwork.\n\n---\n\n### Comparison Summary\n\n| Feature | Hard Skills | Soft Skills |\n| :--- | :--- | :--- |\n| **Nature** | Technical/Task-oriented | Behavioral/Relational |\n| **Acquisition** | Formal education/training | Experience/Personal development |\n| **Measurement** | Easily measured (tests/certs) | Hard to measure (subjective) |\n| **Transferability** | Often job-specific | Highly transferable to any role |\n\n**Conclusion:** \nTo be successful in most careers, you need a balance of both. While **hard skills** may get you the interview and qualify you for the role, **soft skills** are often what determine how well you collaborate with a team, how you lead, and how you advance in your career.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:44:28.962792"
+    },
+    {
+      "message_id": "82d5287c-2a95-4925-9c92-bbcffe9cfeb4",
+      "session_id": "05f0024a-98ff-4fed-a6a3-e30dfe192e14",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "give me some question?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:46:09.894423"
+    },
+    {
+      "message_id": "0b0ba9c8-4aa1-4a15-b513-c0405b8a44b2",
+      "session_id": "05f0024a-98ff-4fed-a6a3-e30dfe192e14",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "To help you practice or reflect on these skills, here are a few different types of questions depending on what you are looking for:\n\n### 1. Self-Reflection Questions (For Personal Development)\n*   **Hard Skills:** What is one technical skill you have that you feel is your strongest asset? What is one technical skill you want to acquire in the next six months to improve your career prospects?\n*   **Soft Skills:** Describe a time you had to handle a conflict with a teammate. What soft skill did you use to resolve it? Which soft skill do you find most challenging to practice in high-pressure situations?\n\n### 2. Interview-Style Questions (To Prepare for a Job)\n*   \"Tell me about a time you used a specific technical skill to solve a complex problem.\" (Hard Skill focus)\n*   \"Describe a situation where you had to adapt your communication style to work with someone different from you.\" (Soft Skill focus)\n*   \"If you were tasked with learning a new piece of software on a tight deadline, what would your process be?\" (Combined)\n\n### 3. Critical Thinking Questions (To Deepen Understanding)\n*   Why might a candidate with excellent hard skills still fail in a role if their soft skills are underdeveloped?\n*   In the age of AI and automation, do you think hard skills or soft skills will become more valuable to employers? Why?\n*   How do you prove that you possess a specific soft skill (like \"leadership\") on a resume where there is no test or certification for it?\n\n**Would you like to try answering one of these, or would you like me to provide feedback on a specific skill you are trying to develop?**",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:46:12.147758"
+    }
+  ],
+  "1167f6aa-0f41-44fb-89c5-4267791ff2d4": [
+    {
+      "message_id": "9b363cf2-b88a-45da-a8ee-4ab5e20d3451",
+      "session_id": "1167f6aa-0f41-44fb-89c5-4267791ff2d4",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What  is object detection?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:52:13.385982"
+    },
+    {
+      "message_id": "d1d4f5c5-b005-49e2-a301-8a0714ac77bd",
+      "session_id": "1167f6aa-0f41-44fb-89c5-4267791ff2d4",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Object detection is a computer vision technique that involves identifying and locating objects within an image or video. Unlike image classification, which simply tells you *what* is in an image (e.g., \"this is a picture of a dog\"), object detection determines *what* is there and *where* it is.\n\n### Core Components of Object Detection\n1.  **Classification:** Identifying the category of the object (e.g., person, car, cat, tree).\n2.  **Localization:** Drawing a \"bounding box\" around the object to define its position and extent within the image.\n\n### How It Works\nModern object detection systems rely heavily on Deep Learning, specifically Convolutional Neural Networks (CNNs). The process generally follows these steps:\n*   **Feature Extraction:** The model scans the image to identify patterns, edges, textures, and shapes.\n*   **Region Proposal:** The model identifies areas of the image that are likely to contain an object.\n*   **Classification & Refinement:** The model classifies the proposed regions and precisely adjusts the bounding box coordinates to tightly fit the object.\n\n### Common Architectures\nThere are two primary categories of object detection models:\n*   **Two-Stage Detectors (e.g., Faster R-CNN):** These models first propose regions of interest and then classify them. They are generally more accurate but slower.\n*   **One-Stage Detectors (e.g., YOLO - \"You Only Look Once\", SSD):** These models perform classification and localization in a single pass through the network. They are significantly faster and ideal for real-time applications.\n\n### Real-World Applications\n*   **Autonomous Vehicles:** Detecting pedestrians, traffic signs, lane markings, and other vehicles to ensure safe navigation.\n*   **Security & Surveillance:** Identifying suspicious activity, unauthorized personnel, or unattended objects.\n*   **Healthcare:** Detecting tumors, lesions, or abnormalities in medical imaging (like X-rays or MRIs).\n*   **Retail/Manufacturing:** Automating inventory counting and inspecting products on assembly lines for defects.\n*   **Sports Analytics:** Tracking the movement of players and the ball during a game to gather statistics.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:52:18.822467"
+    },
+    {
+      "message_id": "c024a862-f265-45d9-84bd-85aee5e6bfa7",
+      "session_id": "1167f6aa-0f41-44fb-89c5-4267791ff2d4",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "give me diagram",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:52:51.770975"
+    },
+    {
+      "message_id": "d153f454-6632-48f5-a3aa-c70892be14ea",
+      "session_id": "1167f6aa-0f41-44fb-89c5-4267791ff2d4",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Since I am a text-based AI, I cannot draw a complex image directly, but I can provide a structural representation of what an object detection model's output looks like versus a standard classification model.\n\n### Conceptual Comparison\n\n**1. Image Classification Output**\n*   **Input:** Image of a street.\n*   **Output:** `Label: \"Street\"` (The model simply tells you what the image contains overall).\n\n**2. Object Detection Output**\n*   **Input:** Image of a street.\n*   **Output:** A list of detected objects with coordinates and confidence scores:\n    *   `[Person]: [x1, y1, x2, y2] | Confidence: 98%`\n    *   `[Car]: [x1, y1, x2, y2] | Confidence: 95%`\n    *   `[Stop Sign]: [x1, y1, x2, y2] | Confidence: 99%`\n\n---\n\n### Visual Representation (ASCII Diagram)\n\nImagine an image containing a car and a person. An object detection system would process it like this:\n\n```text\n+-------------------------------------------------------+\n|                                                       |\n|   [Bounding Box: Car]                                 |\n|   +-----------------------+                           |\n|   |                       |                           |\n|   |         CAR           |           [Bounding Box:  |\n|   |                       |            Person]        |\n|   +-----------------------+           +-------+       |\n|                                       |       |       |\n|                                       | PERSON|       |\n|                                       |       |       |\n|                                       +-------+       |\n|                                                       |\n+-------------------------------------------------------+\n```\n\n### Key to the Diagram:\n*   **The Outer Frame:** Represents the input image (pixel array).\n*   **The Inner Boxes:** The \"Bounding Boxes\" defined by coordinates `(xmin, ymin, xmax, ymax)`.\n*   **The Labels:** The class assigned to the contents of each box (e.g., \"Car\", \"Person\").\n\nIf you would like to see how this is implemented in code using libraries like OpenCV or PyTorch, I can certainly provide a code example for that!",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:52:54.278643"
+    }
+  ],
+  "cdf599b8-88d0-40fd-9400-cdbdb377cd93": [
+    {
+      "message_id": "b3734711-1c93-4262-af16-6aee7973ea45",
+      "session_id": "cdf599b8-88d0-40fd-9400-cdbdb377cd93",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "give me lion image",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:53:26.588387"
+    },
+    {
+      "message_id": "d24e5ed3-3132-4684-96c8-fc76b6b1603c",
+      "session_id": "cdf599b8-88d0-40fd-9400-cdbdb377cd93",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I cannot directly generate or display image files, as I am a text-based AI. However, I can provide you with a link to a high-quality lion image on Unsplash, or you can search for \"lion\" on any image search engine.\n\n[Here is a collection of lion images on Unsplash](https://unsplash.com/s/photos/lion).",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:53:27.664175"
+    }
+  ],
+  "5e9e0c22-c6f7-4919-a747-3ab1fb667157": [
+    {
+      "message_id": "7911edca-c0ef-4d06-b3eb-d92f7e0e9fd9",
+      "session_id": "5e9e0c22-c6f7-4919-a747-3ab1fb667157",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What  is object detection?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:54:53.240309"
+    },
+    {
+      "message_id": "c03be0ef-de59-4993-bf49-59da1c086916",
+      "session_id": "5e9e0c22-c6f7-4919-a747-3ab1fb667157",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Object detection is a computer vision technique that involves identifying and locating objects within an image or a video. Unlike image classification, which only tells you *what* is in an image (e.g., \"there is a dog\"), object detection tells you *what* is in the image and *where* each object is located.\n\nHere are the core components of object detection:\n\n1.  **Classification:** Identifying the category of the object (e.g., person, car, dog, tree).\n2.  **Localization:** Drawing a bounding box\u2014a rectangular frame\u2014around the object to indicate its exact position within the frame.\n\n### How it works\nMost modern object detection systems use Deep Learning models. The process generally involves:\n*   **Feature Extraction:** A neural network (often a Convolutional Neural Network, or CNN) analyzes the image to identify patterns like edges, textures, and shapes.\n*   **Proposal/Prediction:** The model proposes regions of interest where it suspects an object exists and assigns a classification probability to those regions.\n*   **Refinement:** The model narrows down these regions to fit the objects as tightly as possible using bounding box regression.\n\n### Common Algorithms\nObject detection models are generally categorized into two types:\n*   **Two-Stage Detectors:** These first generate \"region proposals\" (potential locations for objects) and then classify those regions. They are generally more accurate but slower. Examples include **R-CNN, Fast R-CNN, and Faster R-CNN.**\n*   **One-Stage Detectors:** These treat object detection as a single regression problem, mapping image pixels directly to bounding box coordinates and class probabilities. They are significantly faster and ideal for real-time applications. Examples include **YOLO (You Only Look Once), SSD (Single Shot MultiBox Detector), and RetinaNet.**\n\n### Practical Applications\n*   **Autonomous Vehicles:** Detecting pedestrians, traffic lights, and other vehicles to navigate safely.\n*   **Surveillance and Security:** Identifying intruders or unusual activity in video feeds.\n*   **Medical Imaging:** Locating tumors or fractures in X-rays or MRI scans.\n*   **Retail/Inventory:** Automatically counting items on shelves or tracking products in checkout-free stores.\n*   **Robotics:** Allowing robots to identify, pick up, and manipulate objects in their environment.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:55:53.156293"
+    }
+  ],
+  "59cf17ab-d12c-408e-a22e-6028f5725cb1": [
+    {
+      "message_id": "541f2123-b068-45c8-a0c7-273588edc526",
+      "session_id": "59cf17ab-d12c-408e-a22e-6028f5725cb1",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What is os?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:01.268964"
+    },
+    {
+      "message_id": "ad262693-cc10-48eb-8c97-484cd9e27d07",
+      "session_id": "59cf17ab-d12c-408e-a22e-6028f5725cb1",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "In computing, **OS** stands for **Operating System**.\n\nAn operating system is the primary software that manages a computer's hardware and software resources and provides common services for computer programs. It acts as an intermediary between the computer hardware and the user.\n\n### Key Functions of an OS:\n1.  **Hardware Management:** It controls and interacts with physical components like the CPU, memory (RAM), storage drives, and input/output devices (keyboard, mouse, monitor).\n2.  **Process Management:** It schedules and manages the execution of applications (programs), ensuring they have the necessary CPU time and memory.\n3.  **Memory Management:** It allocates memory to different processes and ensures that one program does not interfere with the memory assigned to another.\n4.  **File System Management:** It organizes, stores, retrieves, and protects data on storage devices (like hard drives or SSDs).\n5.  **User Interface (UI):** It provides the means for a user to interact with the computer, which can be a Graphical User Interface (GUI), such as Windows or macOS, or a Command-Line Interface (CLI), such as Linux shells.\n6.  **Security and Access Control:** It manages user accounts and permissions, ensuring that files and resources are protected from unauthorized access.\n\n### Common Examples:\n*   **Desktop/Laptop:** Microsoft Windows, macOS, Linux (e.g., Ubuntu, Fedora), and ChromeOS.\n*   **Mobile:** Android and iOS.\n*   **Server/Enterprise:** Unix, Linux (e.g., RHEL, Debian), and Windows Server.\n\nEssentially, without an operating system, a computer would just be a collection of hardware that a user would not be able to operate or run applications on.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:57:03.319349"
+    },
+    {
+      "message_id": "a1388f14-969a-4685-8ba3-cd0ece6ef7ab",
+      "session_id": "59cf17ab-d12c-408e-a22e-6028f5725cb1",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "types of os?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:28.168958"
+    },
+    {
+      "message_id": "6b61aff8-abed-4ec7-9ff0-409809fc3455",
+      "session_id": "59cf17ab-d12c-408e-a22e-6028f5725cb1",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Operating systems can be categorized in several ways depending on their architecture, the hardware they support, and their intended use. Here are the most common types:\n\n### 1. Batch Operating Systems\nThese systems do not interact with the computer directly. Users prepare their jobs (programs or data) on an offline device (like punched cards in the past) and submit them to a computer operator. The operator sorts jobs with similar requirements into batches to execute them together to speed up processing.\n*   **Example:** Payroll systems, bank statements.\n\n### 2. Time-Sharing (Multitasking) Operating Systems\nThese allow multiple users at different terminals to use a single computer system simultaneously. The OS switches between tasks so quickly that each user feels they have dedicated access to the machine.\n*   **Example:** Unix, Linux.\n\n### 3. Distributed Operating Systems\nThese manage a group of independent computers that appear to the user as a single, coherent system. They use multiple central processors to serve multiple real-time applications and multiple users. Data and processing power are shared across the network.\n*   **Example:** LOCUS, Solaris.\n\n### 4. Network Operating Systems\nThese run on a server and provide the capability to manage data, users, groups, security, applications, and other networking functions. The primary purpose is to allow shared file and printer access among multiple computers in a network.\n*   **Example:** Microsoft Windows Server, UNIX, Linux.\n\n### 5. Real-Time Operating Systems (RTOS)\nThese are used when the time requirement for an operation is very strict (e.g., flight control systems or medical devices). The OS must process data and respond to inputs within a specific, tiny timeframe.\n*   **Types:** \n    *   **Hard Real-Time:** Missing a deadline results in total system failure.\n    *   **Soft Real-Time:** Missing a deadline is undesirable but not catastrophic.\n*   **Example:** VxWorks, QNX.\n\n### 6. Mobile Operating Systems\nSpecifically designed to run on mobile devices such as smartphones and tablets. These are optimized for power efficiency, touch interfaces, and wireless connectivity.\n*   **Example:** Android, iOS.\n\n### 7. Embedded Operating Systems\nThese are integrated into larger systems (like appliances, cars, or factory machinery) to perform a specific, limited set of tasks. They are highly efficient and designed for reliability.\n*   **Example:** The OS inside a microwave, a digital camera, or an automotive engine control unit.\n\n### 8. Single-User/Single-Tasking vs. Multi-User/Multi-Tasking\n*   **Single-User, Single-Tasking:** Designed for one user to do one thing at a time (e.g., MS-DOS).\n*   **Single-User, Multi-Tasking:** Designed for one user to perform multiple tasks at once (e.g., Windows 10/11, macOS).\n*   **Multi-User, Multi-Tasking:** Designed for many users to perform many tasks simultaneously (e.g., Mainframe systems, Linux servers).",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:57:31.077110"
+    }
+  ],
+  "f5765145-b852-4540-9ccf-772d24e68082": [
+    {
+      "message_id": "d1925de7-bb12-45e2-97e4-cf1ce537f94b",
+      "session_id": "f5765145-b852-4540-9ccf-772d24e68082",
+      "user_id": "a2e588a2-25dc-44aa-bb92-a3568310a1ad",
+      "role": "user",
+      "content": "Hello, what is Python?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:04.693427"
+    },
+    {
+      "message_id": "db6aca9b-67d0-4fec-a161-0cff82681426",
+      "session_id": "f5765145-b852-4540-9ccf-772d24e68082",
+      "user_id": "a2e588a2-25dc-44aa-bb92-a3568310a1ad",
+      "role": "assistant",
+      "content": "Python is a programming language...",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:57:04.700906"
+    }
+  ],
+  "19fd0f5f-4682-42a0-ac84-96c164b858e5": [
+    {
+      "message_id": "dd7edfee-8563-4350-a9b6-be21b403ddfb",
+      "session_id": "19fd0f5f-4682-42a0-ac84-96c164b858e5",
+      "user_id": "2615c487-fd87-4ca2-924c-07dd694ac480",
+      "role": "user",
+      "content": "Frontend test message",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:54.015046"
+    }
+  ],
+  "284f98ec-9825-4473-9841-4186ed292c53": [
+    {
+      "message_id": "edc83a48-4553-4ad7-9698-e720dc78a447",
+      "session_id": "284f98ec-9825-4473-9841-4186ed292c53",
+      "user_id": "fdacefd2-7f07-4693-8ebd-9690c0b5de38",
+      "role": "user",
+      "content": "Hello, what is Python?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:57:54.048578"
+    },
+    {
+      "message_id": "7b1980cb-27a2-47c9-9e03-89baa11981c2",
+      "session_id": "284f98ec-9825-4473-9841-4186ed292c53",
+      "user_id": "fdacefd2-7f07-4693-8ebd-9690c0b5de38",
+      "role": "assistant",
+      "content": "Python is a programming language...",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:57:54.055777"
+    }
+  ],
+  "3b2e7baf-bcce-416e-b42e-6c416edeb968": [
+    {
+      "message_id": "883dba63-396b-4b1e-93a9-088df7730169",
+      "session_id": "3b2e7baf-bcce-416e-b42e-6c416edeb968",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What  is object detection?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:58:28.101702"
+    },
+    {
+      "message_id": "a5ce22f9-b196-49e2-9137-f8cb231abdb4",
+      "session_id": "3b2e7baf-bcce-416e-b42e-6c416edeb968",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Object detection is a computer vision technique that involves identifying and locating objects within an image or a video. Unlike image classification, which simply tells you *what* is in an image (e.g., \"this is a picture of a dog\"), object detection tells you *what* is in the image and *where* each object is located.\n\nHere is a breakdown of how it works and what it entails:\n\n### Key Components\n1.  **Classification:** Identifying the category of the object (e.g., person, car, cat, tree).\n2.  **Localization:** Drawing a \"bounding box\"\u2014a rectangular frame\u2014around each identified object to mark its precise position in the frame.\n\n### How It Works\nMost modern object detection systems rely on deep learning, specifically Convolutional Neural Networks (CNNs). The process generally follows these steps:\n*   **Feature Extraction:** The model processes the image to identify patterns like edges, textures, and shapes.\n*   **Region Proposal/Grid Search:** The model analyzes different areas of the image to look for potential objects.\n*   **Prediction:** The model assigns a class label to the proposed regions and adjusts the coordinates of the bounding boxes to fit the objects as tightly as possible.\n*   **Non-Maximum Suppression (NMS):** Since an algorithm might detect the same object multiple times, this step cleans up the results, keeping only the most accurate bounding box for each distinct object.\n\n### Popular Algorithms\nObject detection models are generally categorized into two types:\n*   **Two-Stage Detectors (e.g., R-CNN, Faster R-CNN):** These first propose regions of interest and then classify them. They are generally more accurate but slower.\n*   **One-Stage Detectors (e.g., YOLO - \"You Only Look Once\", SSD - Single Shot MultiBox Detector):** These perform classification and localization in a single pass. They are faster and ideal for real-time applications, though sometimes slightly less accurate than two-stage detectors.\n\n### Real-World Applications\n*   **Autonomous Vehicles:** Detecting pedestrians, other cars, traffic lights, and road signs.\n*   **Security and Surveillance:** Identifying intruders or abandoned objects in a video feed.\n*   **Retail/Inventory:** Automatically tracking items on shelves or using cashier-less checkout technology.\n*   **Healthcare:** Detecting tumors or anomalies in medical imagery (like X-rays or MRIs).\n*   **Manufacturing:** Quality control by spotting defects on an assembly line.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:58:30.728001"
+    }
+  ],
+  "8dadb922-dab3-4d2e-8649-ecb62ccd5eab": [
+    {
+      "message_id": "29fac52c-e443-452d-bcc3-f6750c08abc9",
+      "session_id": "8dadb922-dab3-4d2e-8649-ecb62ccd5eab",
+      "user_id": "c8f9e8f2-c15a-41a3-a08e-eb7b561ed21f",
+      "role": "user",
+      "content": "Frontend test message",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:58:38.327561"
+    }
+  ],
+  "f58b5c42-9054-4046-94cd-d66f103304e0": [
+    {
+      "message_id": "b79f4a93-0a53-4b03-a731-05782a21452f",
+      "session_id": "f58b5c42-9054-4046-94cd-d66f103304e0",
+      "user_id": "83850575-358a-425f-9442-45bebaec4333",
+      "role": "user",
+      "content": "Hello, what is Python?",
+      "agent_name": null,
+      "created_at": "2026-07-01T14:58:38.362631"
+    },
+    {
+      "message_id": "bc429903-e418-45ca-8896-44786767e557",
+      "session_id": "f58b5c42-9054-4046-94cd-d66f103304e0",
+      "user_id": "83850575-358a-425f-9442-45bebaec4333",
+      "role": "assistant",
+      "content": "Python is a programming language...",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T14:58:38.370125"
+    }
+  ],
+  "c0dc87ee-ee97-414a-8e5d-146ab372d88e": [
+    {
+      "message_id": "5ba8eff2-5946-4bfc-b2e7-f17b2efe3266",
+      "session_id": "c0dc87ee-ee97-414a-8e5d-146ab372d88e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What is attention is all you need",
+      "agent_name": null,
+      "created_at": "2026-07-01T15:00:55.430328"
+    },
+    {
+      "message_id": "694715da-0d1e-4bb2-9630-c38021caf153",
+      "session_id": "c0dc87ee-ee97-414a-8e5d-146ab372d88e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "\"Attention Is All You Need\" is a seminal research paper published in 2017 by a team of researchers at Google Brain. It introduced the **Transformer** architecture, which has become the foundation for nearly all modern generative AI models, including GPT (Generative Pre-trained Transformer), BERT, and T5.\n\nHere is a breakdown of why this paper is so significant:\n\n### 1. The Core Innovation: \"Attention\"\nBefore this paper, natural language processing (NLP) tasks primarily relied on **Recurrent Neural Networks (RNNs)** and **Long Short-Term Memory (LSTM)** networks. These models processed data sequentially (word by word), which made them slow to train and bad at remembering long-range dependencies in text.\n\nThe authors introduced the **Self-Attention mechanism**. This allows the model to look at every word in a sentence simultaneously and weigh the importance of other words in the sentence to understand the context of a specific word. \n\n*   **Example:** In the sentence *\"The animal didn't cross the street because it was too tired,\"* the model learns to associate \"it\" with \"animal\" rather than \"street\" by attending to the other words in the sequence.\n\n### 2. Eliminating Recurrence\nBecause the Transformer uses self-attention instead of sequential processing, it enables **massive parallelization**. During training, the model can process the entire input sequence at once rather than waiting for the previous word to be processed. This drastically reduced training times and allowed researchers to train models on vastly larger datasets.\n\n### 3. Key Components of the Architecture\n*   **Encoder-Decoder Structure:** The original Transformer consists of an encoder (which reads the input text) and a decoder (which generates the output text). \n*   **Multi-Head Attention:** Instead of one attention mechanism, the model uses multiple \"heads,\" allowing it to focus on different aspects of the sentence simultaneously (e.g., one head might focus on grammar, while another focuses on semantic relationships).\n*   **Positional Encoding:** Since the model processes the whole sentence at once, it lacks an inherent sense of word order. The researchers added \"positional encodings\" to the input embeddings to provide the model with information about the order of the words.\n\n### Why the name?\nThe title \"Attention Is All You Need\" refers to the fact that the researchers achieved state-of-the-art results for machine translation tasks using **only** attention mechanisms, completely discarding the complex recurrent or convolutional layers that were previously thought necessary for sequence modeling.\n\nIn short, this paper effectively changed the course of AI development, shifting the industry away from RNNs and toward the powerful transformer-based architectures that dominate the field today.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T15:00:57.967536"
+    }
+  ],
+  "0320ccac-3e0c-48b2-a83c-a3d536176388": [
+    {
+      "message_id": "ed6ce28e-706a-427b-96bb-baea00b4bac9",
+      "session_id": "0320ccac-3e0c-48b2-a83c-a3d536176388",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "AI",
+      "agent_name": null,
+      "created_at": "2026-07-01T15:25:53.944725"
+    },
+    {
+      "message_id": "89ec53d4-962f-4bc3-8914-fb90084bfa44",
+      "session_id": "0320ccac-3e0c-48b2-a83c-a3d536176388",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Artificial Intelligence (AI) is a branch of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. These tasks include reasoning, learning, problem-solving, perception, and language understanding.\n\nHere is a breakdown of the key concepts:\n\n### How AI Works\nAt its core, modern AI relies heavily on **Machine Learning (ML)**. Instead of being explicitly programmed with rules for every scenario, systems are \"trained\" on vast amounts of data. They use algorithms to identify patterns, make predictions, or generate content based on that information.\n\n### Types of AI\n*   **Narrow AI (Weak AI):** Designed to perform a specific task, such as voice assistants (Siri, Alexa), recommendation engines (Netflix, Amazon), or image recognition. This is the only type of AI that exists today.\n*   **General AI (AGI):** A theoretical form of AI that would possess the ability to understand, learn, and apply intelligence across any intellectual task a human can do. This does not yet exist.\n*   **Super AI:** A theoretical stage where an AI surpasses human intelligence across all fields, including scientific creativity and social skills.\n\n### Key Technologies\n*   **Deep Learning:** A subset of machine learning based on artificial neural networks (modeled after the human brain) that allows computers to process complex data like images and natural language.\n*   **Natural Language Processing (NLP):** Enables computers to understand, interpret, and generate human language (e.g., ChatGPT, translation services).\n*   **Computer Vision:** Allows computers to \"see\" and interpret visual data from the world.\n\n### Current Applications\n*   **Healthcare:** Analyzing medical images to detect diseases early and discovering new drugs.\n*   **Finance:** Detecting fraudulent transactions and managing automated trading.\n*   **Transportation:** Powering autonomous vehicles and optimizing traffic flow.\n*   **Creative Arts:** Generating text, code, images, and music (Generative AI).\n\nAI is a rapidly evolving field with significant potential to boost productivity and solve complex problems, though it also brings challenges regarding ethics, privacy, and the future of the workforce.\n\nDo you have a specific aspect of AI you would like to explore further?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T15:25:56.107833"
+    }
+  ],
+  "fb11c83d-38db-44fc-99e3-2a472e6ffc9b": [
+    {
+      "message_id": "d36eb21c-83bc-48d6-8995-561622092b75",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello, My name is jeel?",
+      "agent_name": null,
+      "created_at": "2026-07-01T15:37:23.649260"
+    },
+    {
+      "message_id": "4cce292c-ce8c-4baa-b914-1eacb667bbcf",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello, Jeel! It's nice to meet you. How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T15:37:24.605227"
+    },
+    {
+      "message_id": "9c0f668e-c2c1-463f-975d-803882297461",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T15:37:55.898025"
+    },
+    {
+      "message_id": "73cfc2c2-8b42-42ea-af62-af346284f41c",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T15:37:56.633231"
+    },
+    {
+      "message_id": "aa35f2a1-cc5e-43cf-ac9a-7129f796c7c9",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "hiiii",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:21:13.038630"
+    },
+    {
+      "message_id": "d0c9cde4-dffa-4a7b-8eb7-a22f4e49d599",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:21:14.021272"
+    },
+    {
+      "message_id": "2fb4f87f-054f-4eef-8a97-d0c23fad1c57",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:21:22.909598"
+    },
+    {
+      "message_id": "d7dee7ba-8c60-418e-b3b8-09a3cda9cba4",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:21:23.681953"
+    },
+    {
+      "message_id": "f6477680-2372-45b0-a88b-d13098b10932",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:21:43.934715"
+    },
+    {
+      "message_id": "4bc45ed7-8bc2-4d80-a844-6b6a3000514b",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:21:44.643208"
+    },
+    {
+      "message_id": "3874f8a4-cbbf-405e-8e72-0b15593c8dc1",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:21:49.086488"
+    },
+    {
+      "message_id": "3db1665e-bcf3-4bda-962a-053aa8a52102",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "\"Jeel\" can have a few different meanings depending on the context:\n\n1.  **Personal Name:** As you just mentioned, it is your name! It is a name of Indian origin (often Gujarati), which typically means \"lake\" or \"body of water.\"\n2.  **Language/Regional Context:** In many Indian languages (derived from Sanskrit/Hindi/Gujarati roots), the word *jheel* (often spelled *jeel*) literally translates to \"lake.\"\n3.  **Technology/Organizations:** Occasionally, \"JEEL\" might be used as an acronym for specific organizations or project names, but without more context, it most commonly refers to the name or the word for \"lake.\"\n\nIs there a specific context you were thinking of, or were you just curious about the meaning of your name?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:22:09.334653"
+    },
+    {
+      "message_id": "ee5a44aa-02a5-4101-a1f1-15b3966f2485",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:22:32.247367"
+    },
+    {
+      "message_id": "d6107b35-7e98-40ca-8e79-415d2b44b90d",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:22:33.924542"
+    },
+    {
+      "message_id": "a1b7730e-15d9-47a7-9043-37fd416d032d",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:22:47.735714"
+    },
+    {
+      "message_id": "1ab29a88-6ab8-476e-882a-d2f5b29fd143",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:22:48.682836"
+    },
+    {
+      "message_id": "ab717213-24db-48e3-b2cd-fed1b81425f0",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "hii",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:23:16.071842"
+    },
+    {
+      "message_id": "85733fb5-185e-4ff6-a05a-033bce4e5f01",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:23:17.155143"
+    },
+    {
+      "message_id": "8f74a27f-4e4b-4929-b923-cd5aac7931eb",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:23:23.281013"
+    },
+    {
+      "message_id": "14fd869d-c86e-43ea-820e-ed9626650773",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I don't know your name, as our conversation has just begun and you haven't shared it with me yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:23:24.173037"
+    },
+    {
+      "message_id": "87e5712a-7ca6-4b25-a781-eea39f36ecc3",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "hii",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:27:19.779125"
+    },
+    {
+      "message_id": "6e3ba6e5-5d37-4999-83b8-b4e23051d80b",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:27:20.810404"
+    },
+    {
+      "message_id": "d57342ae-4220-4b8e-b90b-71d58b816707",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:27:29.730721"
+    },
+    {
+      "message_id": "32b7a56d-5e4c-4be6-ac92-1a7ea850198c",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I don't know your name, as our conversation has just begun and you haven't shared it with me yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:27:30.580530"
+    },
+    {
+      "message_id": "ad132927-0fe4-46a8-b21f-3c3a67c01a35",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:27:42.610758"
+    },
+    {
+      "message_id": "84ef85d0-c696-4b24-8693-07131207b492",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:27:43.720579"
+    },
+    {
+      "message_id": "e23dc3f4-4486-43b6-ba82-70674122690b",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:28:15.371024"
+    },
+    {
+      "message_id": "7cff3e64-8b83-4b04-b56e-5314ddaed4a8",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name. As an AI, I don't have access to your personal identity or past interactions unless you have shared that information with me in this specific conversation.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:28:16.400907"
+    },
+    {
+      "message_id": "53f8063b-80e3-4196-a6d0-6730fb1b8c3a",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:00:43.818805"
+    },
+    {
+      "message_id": "ef5ddce9-6f0d-4326-ad49-64d7026b790c",
+      "session_id": "fb11c83d-38db-44fc-99e3-2a472e6ffc9b",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel. You told me just a moment ago! How can I help you today, Jeel?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:00:45.041912"
+    }
+  ],
+  "b85d8e4a-1973-4844-becd-a2b79aad6257": [
+    {
+      "message_id": "812df7e3-7afe-46b9-bd31-193c6372718c",
+      "session_id": "b85d8e4a-1973-4844-becd-a2b79aad6257",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "What is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T15:37:38.240050"
+    },
+    {
+      "message_id": "14aa2ee0-9508-4b08-9db5-3c8e2c7f4de4",
+      "session_id": "b85d8e4a-1973-4844-becd-a2b79aad6257",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name. As an AI, I don't have access to your personal identity unless you share it with me during our conversation.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T15:37:39.105642"
+    },
+    {
+      "message_id": "6d277e8c-86cc-4ef9-aad3-d595c5c19d5b",
+      "session_id": "b85d8e4a-1973-4844-becd-a2b79aad6257",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "hii",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:22:24.157735"
+    },
+    {
+      "message_id": "d65af5f1-90b3-48e9-ae5b-effcae8fa2ec",
+      "session_id": "b85d8e4a-1973-4844-becd-a2b79aad6257",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:22:25.128954"
+    }
+  ],
+  "1b8e4adf-ff43-40ad-8542-19ed2c1b5564": [
+    {
+      "message_id": "e0d2ce9b-a1eb-4f64-9ad5-d42a5e9abde8",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:32:41.650757"
+    },
+    {
+      "message_id": "77e68edf-982e-457b-8691-6d8909768c64",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:32:42.593857"
+    },
+    {
+      "message_id": "ee90f8a8-145e-40b7-abb5-a584182ca1ba",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is neel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:32:50.993924"
+    },
+    {
+      "message_id": "ad8ae1ba-4bf8-43a4-87a1-dbedda798858",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "It's nice to meet you, Neel! How can I assist you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:32:51.664277"
+    },
+    {
+      "message_id": "8356d7b8-b4b5-441c-940a-d75d6853e7b6",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "How are you?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:33:02.002980"
+    },
+    {
+      "message_id": "1f791a8f-25c7-4a88-bd36-83b5d790146e",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I'm doing well, thank you for asking! How are things going with you, Neel?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:33:02.824216"
+    },
+    {
+      "message_id": "b1403a60-cce7-46fc-8211-10210496b2f4",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:33:27.642156"
+    },
+    {
+      "message_id": "958a7987-e315-40d2-89d9-438f9603de32",
+      "session_id": "1b8e4adf-ff43-40ad-8542-19ed2c1b5564",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "You haven't told me your name yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:33:28.542206"
+    }
+  ],
+  "38b1f343-29ff-4de6-8802-304038b96d72": [
+    {
+      "message_id": "39b84eba-b80a-4252-8787-1e32e651604e",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:38:39.110361"
+    },
+    {
+      "message_id": "966a3314-a072-4d85-97f7-62f5ee4addb6",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:38:39.993683"
+    },
+    {
+      "message_id": "af725ff6-d46d-47e3-a0d2-1ae32b0f558b",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:38:55.652110"
+    },
+    {
+      "message_id": "a1fbd721-85b7-4914-a58e-bfeca1ee0746",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I don't have access to your personal information or identity. You haven't told me your name yet! What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:38:56.558629"
+    },
+    {
+      "message_id": "caf9a748-c255-4968-87ba-362e3ee2a773",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is neel?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:39:13.972206"
+    },
+    {
+      "message_id": "39804843-885f-4168-862c-3cff2bfee1c3",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Neel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:39:14.919577"
+    },
+    {
+      "message_id": "a382d569-cb85-467b-86f9-6ff36b2e691d",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:39:43.068710"
+    },
+    {
+      "message_id": "97d28e43-d720-4803-a055-c10cdcf21bda",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:39:43.957965"
+    },
+    {
+      "message_id": "ea58d669-276d-4ce2-abd2-af02c68fc474",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:43:27.830497"
+    },
+    {
+      "message_id": "da7f118c-19d1-4517-b3c5-4882486462ad",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name. As an AI, I don't have access to your personal identity or private information unless you have shared it with me during this conversation.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:43:28.745727"
+    },
+    {
+      "message_id": "157d2eec-75e1-440c-b18f-bb55f0ea95af",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:43:56.350692"
+    },
+    {
+      "message_id": "2ed220df-92f7-4759-9bcc-432924414752",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:43:57.065726"
+    },
+    {
+      "message_id": "e88f1708-656f-4ba5-a527-35ad107d4f2d",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:44:11.535252"
+    },
+    {
+      "message_id": "aed2dbc5-7dfd-4eaa-867e-833bb1788489",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:44:12.318766"
+    },
+    {
+      "message_id": "d216c768-bf8c-40bd-95af-70fec44caef4",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:44:40.751262"
+    },
+    {
+      "message_id": "9c40d6b5-738c-48d3-928b-f1427b59f2c7",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:44:41.613163"
+    },
+    {
+      "message_id": "abd74623-6f44-437c-8896-c5532af670f4",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:52:26.802790"
+    },
+    {
+      "message_id": "0bfe23c2-0036-428c-b764-4d186f6c4d6f",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:52:46.750125"
+    },
+    {
+      "message_id": "9da9f9be-30e1-4997-ae33-b8c2bb06edb0",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:52:55.983801"
+    },
+    {
+      "message_id": "84ccb3ea-6722-4eef-a32b-f9718571b600",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:53:23.413939"
+    },
+    {
+      "message_id": "009957bc-2b30-4ce2-a8d5-d7daa1878393",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:53:42.730734"
+    },
+    {
+      "message_id": "5b87fdbd-4d38-4a11-81e7-2e7cdda9cec7",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:53:46.693986"
+    },
+    {
+      "message_id": "d9b8d280-560f-43be-b3ed-7d097ecfbdf2",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:54:24.621779"
+    },
+    {
+      "message_id": "5472ea06-80b7-4660-a392-6643050ae0b9",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:54:27.873126"
+    },
+    {
+      "message_id": "1bb553d2-3505-40d5-86fe-c9866460e926",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:56:08.674409"
+    },
+    {
+      "message_id": "b19c5f77-5f54-4925-8d53-2ec416dcef8a",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "As I have mentioned previously, I do not know your name because you have not shared it with me yet. What would you like me to call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:56:12.260824"
+    },
+    {
+      "message_id": "18dac5f3-4026-4757-ad92-e7da24179f49",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:56:51.361119"
+    },
+    {
+      "message_id": "ac9fe35a-f933-4ec6-9128-f94f28dddfb8",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not have access to your personal information or identity, so I do not know your name. If you would like me to address you by a specific name, please let me know what it is.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:56:55.012747"
+    },
+    {
+      "message_id": "081b3192-421f-479d-b5d7-882562292e03",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:58:33.930806"
+    },
+    {
+      "message_id": "2a2d6334-6f17-4300-8970-bd00349cf64e",
+      "session_id": "38b1f343-29ff-4de6-8802-304038b96d72",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name. I do not have access to your personal files, identity, or any information about you unless you choose to share it with me during our conversation. \n\nIf you would like me to call you something, please feel free to tell me!",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:58:35.087933"
+    }
+  ],
+  "bde167be-e8b3-4291-b4be-fdec0bf3e7b5": [
+    {
+      "message_id": "93bebf9f-0ab9-4ef2-93da-1b6c4e8f630e",
+      "session_id": "bde167be-e8b3-4291-b4be-fdec0bf3e7b5",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is neel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:57:33.737931"
+    },
+    {
+      "message_id": "f8f1e6e7-7108-46eb-a7fb-cdb39850ebed",
+      "session_id": "bde167be-e8b3-4291-b4be-fdec0bf3e7b5",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello, Neel! It's nice to meet you. How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:57:37.211920"
+    }
+  ],
+  "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a": [
+    {
+      "message_id": "eb6eb586-af52-4a9b-8369-308e7b178b3a",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:58:47.287452"
+    },
+    {
+      "message_id": "1d5bfcc5-2e85-4694-b619-37edefd66cde",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:58:48.156574"
+    },
+    {
+      "message_id": "9bfd72c0-4b13-46c3-ac48-d5d7b5815b3e",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:58:53.439791"
+    },
+    {
+      "message_id": "b22f0439-bb6d-4f03-b1c7-0e1665446d38",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:58:54.314573"
+    },
+    {
+      "message_id": "0332f819-5e03-4ad2-af84-6674c65c5453",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:58:59.600361"
+    },
+    {
+      "message_id": "4747de5b-a5f8-4e14-a5df-030005e31e35",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:59:00.462076"
+    },
+    {
+      "message_id": "6a5913b4-a7d7-4c35-9535-f9dbdd5be0ff",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:59:04.800920"
+    },
+    {
+      "message_id": "5ef8ada9-4714-46bc-9a4c-e47599437a40",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:59:05.667593"
+    },
+    {
+      "message_id": "7dd43013-bf90-47e6-9bed-cac77498181d",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:59:25.721392"
+    },
+    {
+      "message_id": "5385d34a-d30f-4f25-b811-356e299201e8",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:59:26.776781"
+    },
+    {
+      "message_id": "414e9f80-b576-4efc-8ec4-ca7da679233e",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:59:38.617908"
+    },
+    {
+      "message_id": "08c9b17c-5f90-4654-9348-fc8990d35eba",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:59:39.562866"
+    },
+    {
+      "message_id": "e65c5194-fa98-43d3-85ae-e04ff4b266e3",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T16:59:58.400754"
+    },
+    {
+      "message_id": "38a90092-aba3-493d-88d5-c5020444cf1a",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T16:59:59.635476"
+    },
+    {
+      "message_id": "727f6da4-d273-4f3f-b3a7-8ea4b6324a77",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:00:22.914754"
+    },
+    {
+      "message_id": "fe8cbe32-7710-4ddb-842a-9b41a9dd178f",
+      "session_id": "f4abdd17-dcb3-4a3f-b7c1-f869ed503c5a",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:00:23.940030"
+    }
+  ],
+  "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e": [
+    {
+      "message_id": "d3f9bc87-3b57-46ec-b2f1-296a4cc443dd",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:01:04.991242"
+    },
+    {
+      "message_id": "c553bdae-0c3d-4984-9d6c-f08fd3f51270",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:01:05.875450"
+    },
+    {
+      "message_id": "448217d2-1de9-4be5-bd96-e7d2c73b26b7",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:01:10.567676"
+    },
+    {
+      "message_id": "690578a6-e5c4-4792-9f88-a6d3a4bbd902",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:01:11.564352"
+    },
+    {
+      "message_id": "468421ae-04dd-4052-b6a6-3e34f2909be0",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:01:21.184764"
+    },
+    {
+      "message_id": "4d9a2845-9a32-46eb-8cac-e02a9716b95e",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:01:22.320671"
+    },
+    {
+      "message_id": "10aff1b2-97b0-4468-839b-f5ef04ed7595",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:01:32.888786"
+    },
+    {
+      "message_id": "c9e2ccbe-58cb-4e5c-b18b-eec6e28b71df",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:01:33.859157"
+    },
+    {
+      "message_id": "611f086c-90a7-4fc7-abb8-a1de08a93f27",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:02:00.569912"
+    },
+    {
+      "message_id": "9adf9fb7-f1b7-4b67-b915-979b8b78d318",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:02:01.563026"
+    },
+    {
+      "message_id": "38fdfe8f-79a4-48a2-aa54-6777839aa6bb",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:03:22.157410"
+    },
+    {
+      "message_id": "3ad751e4-09f9-4ad7-99b1-286ff980a007",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:03:23.047368"
+    },
+    {
+      "message_id": "6738aab7-e33d-4258-9b89-55a52f0cea7a",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:04:09.697134"
+    },
+    {
+      "message_id": "43e79bec-0e9b-4344-83cf-515a58122bb7",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:04:39.585929"
+    },
+    {
+      "message_id": "6cda096f-1ee0-492a-b0c6-af68ed8fbdef",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:04:40.424215"
+    },
+    {
+      "message_id": "54b99df4-36b9-4a9f-b207-e62992a4a230",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:05:04.449760"
+    },
+    {
+      "message_id": "0f92d523-6aa9-48eb-8f70-5601d4fb36cf",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:05:05.374637"
+    },
+    {
+      "message_id": "d71519c6-512f-450d-b784-3b574054b320",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "cls",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:05:09.809372"
+    },
+    {
+      "message_id": "15abd107-45e2-4114-90a5-750caaaf09d6",
+      "session_id": "c2a0acfa-2748-4b15-bcd0-f62b8a7b875e",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "It seems you are trying to clear the screen or reset the context. As an AI assistant, I don't have a direct \"clear screen\" command for your interface, but I am ready to start fresh or address your next question. How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:05:10.958930"
+    }
+  ],
+  "399670d9-6642-4c9b-abf8-3e003b0008ac": [
+    {
+      "message_id": "871c4e92-d8c3-4d49-a9b4-e13a8791ec89",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:05:51.223691"
+    },
+    {
+      "message_id": "37405033-99ce-4db8-997b-650e13b9f5de",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:05:51.894405"
+    },
+    {
+      "message_id": "389b48a9-7278-47cd-937c-d83c1d89ccc9",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:05:58.945052"
+    },
+    {
+      "message_id": "3c508504-b005-4f34-bb75-4c98094fada6",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name as you haven't provided it to me yet. Would you like to tell me what it is?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:05:59.748193"
+    },
+    {
+      "message_id": "14d37ef6-677e-49a5-bbcf-b0ea68f4a486",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:06:05.992976"
+    },
+    {
+      "message_id": "c0b99512-88e7-426f-890f-e24de05440bf",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "It's nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:06:06.754002"
+    },
+    {
+      "message_id": "6f0c42d9-da6e-49f2-ae12-dd86a43a2df2",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name>",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:06:16.841030"
+    },
+    {
+      "message_id": "d1cd5cf3-ae58-41ca-b1dc-f9a69925a422",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:06:17.640528"
+    },
+    {
+      "message_id": "9ea2e4a1-2bca-4193-98aa-7af069da4bc7",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:03:51.329130"
+    },
+    {
+      "message_id": "8444c63f-6e28-46ac-a0ee-40036465cad8",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:10:04.557282"
+    },
+    {
+      "message_id": "614fe2c7-654c-4f69-9ab1-b4fb46862530",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:10:09.039064"
+    },
+    {
+      "message_id": "463b20b5-b7f0-474b-aa32-fd64bd530b18",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is capital of india?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:10:22.818203"
+    },
+    {
+      "message_id": "5f892320-dd10-46c9-9928-17794d877414",
+      "session_id": "399670d9-6642-4c9b-abf8-3e003b0008ac",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The capital of India is New Delhi.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:10:23.622598"
+    }
+  ],
+  "873242be-6f68-4590-9e3f-260f9b165784": [
+    {
+      "message_id": "5b2f43b8-4df9-437c-9cba-c644fff36736",
+      "session_id": "873242be-6f68-4590-9e3f-260f9b165784",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "give me lion image",
+      "agent_name": null,
+      "created_at": "2026-07-01T17:11:02.734899"
+    },
+    {
+      "message_id": "c72c707d-1129-4a85-b2bf-e0ae815574ee",
+      "session_id": "873242be-6f68-4590-9e3f-260f9b165784",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I am a text-based AI assistant and do not have the capability to generate, display, or send images directly.\n\nIf you are looking for images of a lion, I recommend using a web search engine like Google Images, Bing Images, or a dedicated stock photo site like Unsplash or Pexels.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T17:11:03.722717"
+    }
+  ],
+  "test_session_stream": [
+    {
+      "message_id": "bdd59d39-71b3-40f4-9a46-49af68777935",
+      "session_id": "test_session_stream",
+      "user_id": "test_user",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:08:00.376970"
+    },
+    {
+      "message_id": "62a315cd-292b-4d33-97c5-3fe60a39d235",
+      "session_id": "test_session_stream",
+      "user_id": "test_user",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:08:03.688032"
+    },
+    {
+      "message_id": "1f3f3743-13f3-48c4-8621-0de460920826",
+      "session_id": "test_session_stream",
+      "user_id": "test_user",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:08:54.633105"
+    },
+    {
+      "message_id": "16a0f49a-f359-44fe-91f0-db925e5f5fea",
+      "session_id": "test_session_stream",
+      "user_id": "test_user",
+      "role": "assistant",
+      "content": "As I mentioned, I don't have access to your personal information or identity, so I do not know your name. Would you like to tell me what it is?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:08:58.181512"
+    }
+  ],
+  "e2a03cd4-c3c1-44e1-8f6b-b7023a0784a5": [
+    {
+      "message_id": "961fc5ab-b149-4c7e-9f39-fa4ac666a633",
+      "session_id": "e2a03cd4-c3c1-44e1-8f6b-b7023a0784a5",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:12:44.567702"
+    },
+    {
+      "message_id": "218bd328-0a8c-452e-8b10-cde3c4dc4fdb",
+      "session_id": "e2a03cd4-c3c1-44e1-8f6b-b7023a0784a5",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:12:45.271448"
+    },
+    {
+      "message_id": "dc02481f-7c9d-4a3b-a1df-a93e57afe877",
+      "session_id": "e2a03cd4-c3c1-44e1-8f6b-b7023a0784a5",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:12:52.515973"
+    }
+  ],
+  "6f156cf0-0179-45e1-b3af-fc35b3e21990": [
+    {
+      "message_id": "59f91d0f-4bff-4469-b4d8-02124057616b",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:18:58.385413"
+    },
+    {
+      "message_id": "1450de95-61be-414e-9dde-a0ace6e9645e",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:18:59.149693"
+    },
+    {
+      "message_id": "18df2241-3237-4e7d-969b-6e2c31cae8ee",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:19:06.468486"
+    },
+    {
+      "message_id": "2d1d99fe-55cc-43d3-a99d-38a20dea18fb",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "I do not know your name, as you haven't shared it with me yet. What should I call you?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:19:07.207674"
+    },
+    {
+      "message_id": "fd57b7f4-136f-4236-98a5-1b2b07db6267",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "my name is jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:19:11.602285"
+    },
+    {
+      "message_id": "4a58d845-a109-4a41-9ee6-3c929d1d2771",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:19:12.718780"
+    },
+    {
+      "message_id": "43cc9eb4-58dc-4a14-ae8e-7ae865a99041",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what's my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:19:21.475199"
+    },
+    {
+      "message_id": "68bdc9bc-316b-4b24-8eb2-5ca264f7bc17",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:19:22.276341"
+    },
+    {
+      "message_id": "2362f9ff-2ae9-4757-af28-5dc6500becfb",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:19:32.653355"
+    },
+    {
+      "message_id": "60ac5725-a25f-4ec5-9b88-66dd74292ca4",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:19:33.354642"
+    },
+    {
+      "message_id": "13b9e98b-89d5-4eb6-956a-b4d649e48af6",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:19:54.590381"
+    },
+    {
+      "message_id": "23fea88e-5c90-49fc-b8cb-64e47b2d598e",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:19:55.614357"
+    },
+    {
+      "message_id": "80e02f68-f891-4326-bf55-9f033dbfa7ec",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:27:19.367204"
+    },
+    {
+      "message_id": "64d53411-782a-45ca-8e8e-20471d94751d",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:27:21.393807"
+    },
+    {
+      "message_id": "edeb3b33-ddc6-44a1-bb73-9d78ad99db11",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-03T14:43:37.240915"
+    },
+    {
+      "message_id": "67cf2961-2b40-49e4-bbb0-945e2437b8f3",
+      "session_id": "6f156cf0-0179-45e1-b3af-fc35b3e21990",
+      "user_id": "dc951385-44c2-4a09-8b56-95c191c57237",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T14:43:38.759585"
+    }
+  ],
+  "9f919359-4c05-4c12-95a7-1dbe80a3d868": [
+    {
+      "message_id": "0c217c6c-d9cc-4be9-bdff-8f9b5056e84e",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:30:38.625054"
+    },
+    {
+      "message_id": "5be29190-c026-472c-a26d-4b33186316cd",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:30:39.867861"
+    },
+    {
+      "message_id": "9ee29507-5ef1-4759-b3eb-a0afee333371",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "My name is Jeel",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:30:51.398116"
+    },
+    {
+      "message_id": "d406027a-dc3f-40ba-bd6f-0b20254ae9bb",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "It's nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:30:54.089409"
+    },
+    {
+      "message_id": "230b3826-8ec6-4668-a97f-59ae3f7b1656",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:31:03.102507"
+    },
+    {
+      "message_id": "08d5cb8a-6267-4c20-a0c3-19c594b88dc3",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:31:03.947703"
+    },
+    {
+      "message_id": "e1f1efba-6037-45f1-be1d-2a68842183e0",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is ai?",
+      "agent_name": null,
+      "created_at": "2026-07-01T18:36:25.583102"
+    },
+    {
+      "message_id": "87449ed1-2517-4272-889e-38c3376b39aa",
+      "session_id": "9f919359-4c05-4c12-95a7-1dbe80a3d868",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "AI stands for **Artificial Intelligence**.\n\nAt its core, it is a branch of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include things like:\n\n*   **Learning:** The ability to improve performance based on data (often through machine learning).\n*   **Reasoning:** Using rules or patterns to reach conclusions or solve problems.\n*   **Problem Solving:** Navigating complex situations to achieve a specific goal.\n*   **Perception:** Interpreting information from the world, such as recognizing speech, identifying objects in images, or understanding natural language (which is what I am doing right now).\n\nAI ranges from \"Narrow AI,\" which is designed to handle specific tasks (like a chess program, a recommendation algorithm, or a spam filter), to the theoretical concept of \"General AI,\" which would possess the ability to understand, learn, and apply knowledge across any intellectual task a human can do.\n\nIn short, AI is technology that enables computers and machines to simulate human intelligence and problem-solving capabilities.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-01T18:36:28.422302"
+    }
+  ],
+  "a0da53ce-484a-4b96-ae0a-516a505e7ae9": [
+    {
+      "message_id": "f498bcbe-dbcf-4821-b3af-1faf276a7fbb",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-03T14:44:21.912463"
+    },
+    {
+      "message_id": "d057077e-7b2e-4649-9394-6c21fc57ed17",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T14:44:22.770141"
+    },
+    {
+      "message_id": "a5297c70-a3b2-4da6-b98c-8d56d899ecc2",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-03T14:44:28.713093"
+    },
+    {
+      "message_id": "b9c11444-e912-459c-8266-d079bc59f338",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "I do not know your name as you haven't shared it with me yet. Would you like to tell me?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T14:44:29.584745"
+    },
+    {
+      "message_id": "6e7c81d5-38e1-48ee-af67-3c9daa1a8669",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "my name is jeel?",
+      "agent_name": null,
+      "created_at": "2026-07-03T14:44:40.419745"
+    },
+    {
+      "message_id": "1abd0684-ce8c-4bd1-84e6-fcbe42901125",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Nice to meet you, Jeel! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T14:44:42.346340"
+    },
+    {
+      "message_id": "b89016b1-0345-451f-ac7e-28c61064f502",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is my name?",
+      "agent_name": null,
+      "created_at": "2026-07-03T14:44:57.488147"
+    },
+    {
+      "message_id": "c4ef011a-e4fc-4652-9c50-ddbe8f2a80e1",
+      "session_id": "a0da53ce-484a-4b96-ae0a-516a505e7ae9",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Your name is Jeel.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T14:44:58.400381"
+    }
+  ],
+  "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356": [
+    {
+      "message_id": "13292171-d86c-471e-875e-2071a0dbabae",
+      "session_id": "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "what is the capital of india?",
+      "agent_name": null,
+      "created_at": "2026-07-03T15:16:44.079233"
+    },
+    {
+      "message_id": "73ab3f2a-b362-4604-848a-525098c16caf",
+      "session_id": "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "The capital of India is New Delhi.",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T15:16:45.038280"
+    },
+    {
+      "message_id": "44ddd425-fb6f-41ff-a37d-a234aa4052cc",
+      "session_id": "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "hello",
+      "agent_name": null,
+      "created_at": "2026-07-03T15:23:55.231470"
+    },
+    {
+      "message_id": "a52d094c-b810-4dbc-a6e4-bb3482d09bd9",
+      "session_id": "df48ecb6-5ecb-4f91-b7a6-7ca1e98d2356",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T15:23:56.291745"
+    }
+  ],
+  "6f585677-225c-4077-a896-350d0cfc802d": [
+    {
+      "message_id": "6ca4b12e-ff07-4a8a-b845-d0ffe338aff6",
+      "session_id": "6f585677-225c-4077-a896-350d0cfc802d",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "user",
+      "content": "Hello",
+      "agent_name": null,
+      "created_at": "2026-07-03T15:44:59.498245"
+    },
+    {
+      "message_id": "60e5dc78-1124-4939-a29c-1c49104d0b13",
+      "session_id": "6f585677-225c-4077-a896-350d0cfc802d",
+      "user_id": "42fbd47d-14bc-416c-8988-73f735aa1cda",
+      "role": "assistant",
+      "content": "Hello! How can I help you today?",
+      "agent_name": "main_agent",
+      "created_at": "2026-07-03T15:45:00.464504"
+    }
+  ]
+}
