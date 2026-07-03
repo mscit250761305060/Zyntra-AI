@@ -8,6 +8,7 @@ from pathlib import Path
 from src.core.config import settings
 from src.api.routes import chat_routes, session_routes, document_routes, auth_routes
 from src.models.schemas import HealthResponse
+from fastapi.responses import RedirectResponse
 
 # Configure logging
 logging.basicConfig(
@@ -47,18 +48,9 @@ if static_dir.exists():
     app.mount("/static", StaticFiles(directory=static_dir), name="static")
     logger.info(f"Static files mounted from {static_dir}")
 
-
-
-@app.get("/", tags=["Health"])
+@app.get("/", include_in_schema=False)
 async def root():
-    """Root endpoint - redirects to frontend."""
-    return {
-        "message": "Welcome to Zyntra AI API",
-        "frontend": "/static/index.html",
-        "docs": "/api/docs",
-        "version": "1.0.0",
-    }
-
+    return RedirectResponse(url="/static/index.html")
 
 @app.get("/health", response_model=HealthResponse, tags=["Health"])
 async def health_check():

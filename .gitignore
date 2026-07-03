@@ -3,6 +3,16 @@ __pycache__/
 *.pyc
 .env
 
+data/audio/
+data/chroma/
+data/messages.json
+data/users.json
+data/sessions.json
+data/refresh_tokens.json
+
+
+src/data/uploads/
+
 chroma_db/
 *.db
 
